@@ -4,7 +4,7 @@
 
 # 目录
 - [1 校招时间表](#Scheduled)
-- [2 实习求职攻略](.docs/%E8%81%8A%E8%81%8A%E5%A6%82%E4%BD%95%E6%89%BE%E5%AE%9E%E4%B9%A0%EF%BC%8C%E5%86%99%E7%AE%80%E5%8E%86%EF%BC%8C%E4%B8%BA%E7%A7%8B%E6%8B%9B%E5%81%9A%E5%87%86%E5%A4%87.md)
+- [2 实习求职攻略](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%81%8A%E8%81%8A%E5%A6%82%E4%BD%95%E6%89%BE%E5%AE%9E%E4%B9%A0%EF%BC%8C%E5%86%99%E7%AE%80%E5%8E%86%EF%BC%8C%E4%B8%BA%E7%A7%8B%E6%8B%9B%E5%81%9A%E5%87%86%E5%A4%87.md)
 - [3 简历制作](#Scheduled)
 - [4 如何进行自我介绍](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.md)
 - [5 如何复习基础知识](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E5%A4%8D%E4%B9%A0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
