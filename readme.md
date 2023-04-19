@@ -1,6 +1,12 @@
-# CS_Job_Guide
+<div align="center">
+    <p>
+        <a href="https://github.com/wuyoueeee/CS_Job_Guide" target="_blank">
+            <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E5%A4%B4%E5%83%8F.jpg" width="110" />
+        </a>
+    </p>
+</div>
 
-计算机专业求职攻略，包括校招时间安排、求职攻略、简历准备、自我介绍、如何准备、公司清单等资料
+计算机专业求职攻略，包括校招时间安排、求职攻略、简历准备、自我介绍、如何准备、公司清单等资料。
 
 # 目录
 - [1 校招时间表](#Scheduled)
