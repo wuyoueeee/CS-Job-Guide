@@ -16,7 +16,7 @@
 - [5 基础知识](#basicKnowledge)
 - [6 如何总结项目](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E6%80%BB%E7%BB%93%E9%A1%B9%E7%9B%AE.md)
 - [7 如何调整心态](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E8%B0%83%E6%95%B4%E5%BF%83%E6%80%81.md)
-- [8 互联网黑话](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E8%B0%83%E6%95%B4%E5%BF%83%E6%80%81.md)
+- [8 互联网黑话](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E4%BA%92%E8%81%94%E7%BD%91%E9%BB%91%E8%AF%9D.md)
 
 
 <a name="Scheduled"></a>
