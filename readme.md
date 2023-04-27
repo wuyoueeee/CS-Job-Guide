@@ -27,8 +27,8 @@
 <a name="resume"></a>
 
 ## 简历制作
-- [BAT简历是什么样的](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E5%A4%8D%E4%B9%A0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
-- [五分钟，用ChatGPT写简历](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E5%A4%8D%E4%B9%A0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
+- [BAT简历是什么样的](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86%E5%88%B6%E4%BD%9C.md) todo~
+- [五分钟，用ChatGPT写简历](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86%E5%88%B6%E4%BD%9C.md) todo~
 - [常见项目的STAR原则描述](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/STAR%E5%8E%9F%E5%88%99.md)
 
 <a name="basicKnowledge"></a>
