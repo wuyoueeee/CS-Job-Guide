@@ -50,8 +50,8 @@
 
 ## 求职信息及渠道
 
-- [八百家国企名单目录](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
-- [三百家互联网求职名单](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
+- [八百家国企名单目录](https://t.zsxq.com/0dhNKXNU8)
+- [三百家互联网求职名单](https://t.zsxq.com/0dPXh5iHm)
 - [银行相关求职信息汇总](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
 - [常见的求职渠道](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
 
