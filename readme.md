@@ -67,7 +67,7 @@
 ## 面试攻略及经验
 - [面试中如何进行自我介绍](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.md)
 - [面试阿里4次，全过！大厂面试经验分享](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E8%AF%95%E9%98%BF%E9%87%8C4%E6%AC%A1%EF%BC%8C%E5%85%A8%E8%BF%87%EF%BC%81%E5%A4%A7%E5%8E%82%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md) 💯
-- [美团后端开发面试经验分享（已offer）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E8%AF%95%E9%98%BF%E9%87%8C4%E6%AC%A1%EF%BC%8C%E5%85%A8%E8%BF%87%EF%BC%81%E5%A4%A7%E5%8E%82%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md) 💯
+- [美团后端开发面试经验分享（已offer）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E7%BE%8E%E5%9B%A2%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%EF%BC%88%E5%B7%B2offer%EF%BC%89.md) 💯
 - [招商银行信用卡中心暑期实习面经](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F.md) 💯
 
 <a name="employmentContract"></a>
