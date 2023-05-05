@@ -42,7 +42,7 @@
 - [简历的重要性](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E7%AE%80%E5%8E%86%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7.md) 
 - [如何写好一份简历](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E4%B8%80%E4%BB%BD%E7%AE%80%E5%8E%86.md)
 - [好用的简历模板](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
-- [常见项目的STAR原则描述](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/STAR%E5%8E%9F%E5%88%99.md)
+- [常见项目的STAR原则描述](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/STAR%E5%8E%9F%E5%88%99.md)
 - [简历修改（知识星球）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E7%AE%80%E5%8E%86%E4%BF%AE%E6%94%B9%E6%9C%8D%E5%8A%A1.md)
 
 <a name="basicKnowledge"></a>
