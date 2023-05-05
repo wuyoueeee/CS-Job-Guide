@@ -4,7 +4,14 @@
             <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/cs%20job%20guide.png" width="200" />
         </a>
     </p>
+    <p>
+        <a href="https://space.bilibili.com/10406355?spm_id_from=333.976.0.0"><img src="https://img.shields.io/badge/bilibili-程序员无忧-brightgreen.svg" alt="bilibili" /></a>
+        <img src="https://img.shields.io/github/stars/wuyoueeee/CS_Job_Guide" alt="stars" />
+        <img src="https://img.shields.io/github/forks/wuyoueeee/CS_Job_Guide" alt="forks" />
+    </p>
 </div>
+
+
 
 如果你正在寻找一份全面的**计算机专业求职攻略**，那么这篇专栏是你**不容错过的宝藏**！
 这篇攻略涵盖了校招时间表、求职攻略、简历制作、自我介绍、基础知识、求职信息及渠道、面试攻略及经验、关于offer和三方、关于签约你要知道的事情、职业发展等方面的资料，**内容非常全面**。
