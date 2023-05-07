@@ -38,7 +38,7 @@
 <a name="resume"></a>
 
 ## 简历制作
-- [一份真实的的互联网大厂简历](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md) 
+- [一份真实的的互联网大厂简历](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E4%B8%80%E4%BB%BD%E7%9C%9F%E5%AE%9E%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82%E7%AE%80%E5%8E%86.md) 
 - [简历的重要性](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E7%AE%80%E5%8E%86%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7.md) 
 - [如何写好一份简历](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E4%B8%80%E4%BB%BD%E7%AE%80%E5%8E%86.md)
 - [好用的简历模板](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
@@ -89,8 +89,8 @@
 <a name="careerDevelopment"></a>
 
 ## 职业发展
-- [常见互联网黑话](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.md)
-- [你说想搞技术，为什么不去互联网呢？](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.md)
+- [常见互联网黑话](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95/%E4%BA%92%E8%81%94%E7%BD%91%E9%BB%91%E8%AF%9D.md)
+- [你说想搞技术，为什么不去互联网呢？](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95/%E9%9D%A2%E8%AF%95%E4%B8%AD%E6%8F%90%E9%97%AE%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%8E%BB%E4%BA%92%E8%81%94%E7%BD%91.md)
 
 <a name="zsxq"></a>
 
