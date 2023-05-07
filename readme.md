@@ -50,7 +50,7 @@
 ## 基础知识
 - [如何复习基础知识](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E5%A4%8D%E4%B9%A0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
 - [如何总结项目](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E6%80%BB%E7%BB%93%E9%A1%B9%E7%9B%AE.md)
-- [前端](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
+- [前端](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88.md)
 - [后端](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
 - [算法](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
 
