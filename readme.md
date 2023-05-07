@@ -90,7 +90,7 @@
 
 ## 职业发展
 - [常见互联网黑话](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.md)
-
+- [你说想搞技术，为什么不去互联网呢？](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.md)
 
 <a name="zsxq"></a>
 
