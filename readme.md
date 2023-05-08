@@ -28,6 +28,7 @@
   - [关于签约你要知道的事情](#关于签约你要知道的事情)
   - [职业发展](#职业发展)
   - [我的知识星球](#我的知识星球)
+  - [Star 趋势](#star-趋势)
 
 
 <a name="Scheduled"></a>
@@ -116,3 +117,7 @@
         </a>
     </p>
 </div>
+
+## Star 趋势
+
+![](https://api.star-history.com/svg?repos=wuyoueeee/CS-Job-Guide&type=Date)
