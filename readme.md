@@ -93,6 +93,7 @@
 ## 职业发展
 - [常见互联网黑话](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95/%E4%BA%92%E8%81%94%E7%BD%91%E9%BB%91%E8%AF%9D.md)
 - [你说想搞技术，为什么不去互联网呢？](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95/%E9%9D%A2%E8%AF%95%E4%B8%AD%E6%8F%90%E9%97%AE%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%8E%BB%E4%BA%92%E8%81%94%E7%BD%91.md)
+- [真香警告！银行科技岗/金融科技岗到底怎么样？](https://www.bilibili.com/video/BV12e411V7KM/?vd_source=f77f520ad7e300859421d5fcac59f4aa)
 
 <a name="zsxq"></a>
 
