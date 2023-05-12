@@ -53,7 +53,7 @@
 - [如何总结项目](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E6%80%BB%E7%BB%93%E9%A1%B9%E7%9B%AE.md)
 - [MySQL基础高频面试题](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/MySQL%E5%9F%BA%E7%A1%80%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98%20.md)
 - [MySQL进阶高频面试题](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/MySQL%E8%BF%9B%E9%98%B6%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98.md)
-- - [Python高频面试题](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Python%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [Python高频面试题](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Python%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 - [前端](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88.md)
 - [后端](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
 - [算法](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
