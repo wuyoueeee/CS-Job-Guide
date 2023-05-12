@@ -75,6 +75,7 @@
 - [双非拿了美团offer，值得学习](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E5%8F%8C%E9%9D%9E%E6%8B%BF%E4%BA%86%E7%BE%8E%E5%9B%A2offer.md) 💯
 - [美团后端开发面试经验分享（已offer）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E7%BE%8E%E5%9B%A2%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%EF%BC%88%E5%B7%B2offer%EF%BC%89.md) 💯
 - [快手春招Java后端面试经验分享（已offer）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E5%BF%AB%E6%89%8B%E6%98%A5%E6%8B%9BJava%E5%90%8E%E7%AB%AF%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%EF%BC%88%E5%B7%B2offer%EF%BC%89.md) 💯
+- [快手实习Java后端面试经验分享（已OC）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E5%BF%AB%E6%89%8B%E6%98%A5%E6%8B%9BJava%E5%90%8E%E7%AB%AF%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%EF%BC%88%E5%B7%B2offer%EF%BC%89.md) 💯 
 - [招商银行信用卡中心暑期实习面经](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F.md) 💯
 
 <a name="employmentContract"></a>
