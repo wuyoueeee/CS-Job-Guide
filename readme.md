@@ -5,6 +5,7 @@
         </a>
     </p>
     <p>
+        <a href="http://8.142.103.57:5000/"><img src="https://img.shields.io/badge/工具-即刻简历-brightgreen.svg" alt="简历" /></a>
         <a href="https://space.bilibili.com/10406355?spm_id_from=333.976.0.0"><img src="https://img.shields.io/badge/bilibili-程序员无忧-brightgreen.svg" alt="bilibili" /></a>
         <img src="https://img.shields.io/github/stars/wuyoueeee/CS_Job_Guide" alt="stars" />
         <img src="https://img.shields.io/github/forks/wuyoueeee/CS_Job_Guide" alt="forks" />
