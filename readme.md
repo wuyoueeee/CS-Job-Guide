@@ -40,6 +40,8 @@
 <a name="resume"></a>
 
 ## 简历制作
+
+- [最新上线的简历评估工具：即刻简历](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E5%8D%B3%E5%88%BB%E7%AE%80%E5%8E%86.md)⭐⭐⭐
 - [一份真实的的互联网大厂简历](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E4%B8%80%E4%BB%BD%E7%9C%9F%E5%AE%9E%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82%E7%AE%80%E5%8E%86.md) 
 - [简历的重要性](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E7%AE%80%E5%8E%86%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7.md) 
 - [如何写好一份简历](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E4%B8%80%E4%BB%BD%E7%AE%80%E5%8E%86.md)
@@ -50,7 +52,7 @@
 <a name="basicKnowledge"></a>
 
 ## 基础知识
-- [如何复习基础知识](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E5%A4%8D%E4%B9%A0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
+- [如何复习基础知识](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E5%A4%8D%E4%B9%A0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md) 
 - [如何总结项目](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E6%80%BB%E7%BB%93%E9%A1%B9%E7%9B%AE.md)
 - [MySQL基础高频面试题](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/MySQL%E5%9F%BA%E7%A1%80%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98%20.md)
 - [MySQL进阶高频面试题](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/MySQL%E8%BF%9B%E9%98%B6%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98.md)
