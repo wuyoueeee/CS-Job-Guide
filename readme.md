@@ -48,6 +48,7 @@
 - [好用的简历模板](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF.md)
 - [常见项目的STAR原则描述](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/STAR%E5%8E%9F%E5%88%99.md)
 - [简历修改（知识星球）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E7%AE%80%E5%8E%86%E4%BF%AE%E6%94%B9%E6%9C%8D%E5%8A%A1.md)
+- [人手一份的求职表（强烈推荐）](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E6%B1%82%E8%81%8C%E8%A1%A8.md)
 
 <a name="basicKnowledge"></a>
 
