@@ -77,6 +77,7 @@
 
 ## 面试攻略及经验
 - [面试中如何进行自我介绍](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.md)
+- [百度C++提前批面经](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E7%99%BE%E5%BA%A6C%2B%2B%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F.md)
 - [面试阿里4次，全过！大厂面试经验分享](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E8%AF%95%E9%98%BF%E9%87%8C4%E6%AC%A1%EF%BC%8C%E5%85%A8%E8%BF%87%EF%BC%81%E5%A4%A7%E5%8E%82%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md) 💯
 - [阿里菜鸟网络后端暑期实习（已OC） ](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E8%8F%9C%E9%B8%9F%E7%BD%91%E7%BB%9C%E5%90%8E%E7%AB%AF%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%EF%BC%88%E5%B7%B2OC%EF%BC%89.md) 
 - [双非拿了美团offer，值得学习](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E5%8F%8C%E9%9D%9E%E6%8B%BF%E4%BA%86%E7%BE%8E%E5%9B%A2offer.md) 💯
