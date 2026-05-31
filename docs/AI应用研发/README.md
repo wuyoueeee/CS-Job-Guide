@@ -36,6 +36,8 @@ flowchart LR
 | 工程能力 | 并发、异步、降级、延迟和成本如何权衡 | [岗位能力路线](./01-岗位能力地图与十二周路线.md) |
 | 推理性能 | Streaming、KV Cache、推理框架与性能指标如何理解 | [推理性能基础](./07-推理性能基础.md) |
 | AI Coding | 如何用模型提升研发效率，同时保留审查、测试和数据边界 | [AI Coding 工程实践](./08-AICoding工程实践.md) |
+| 向量数据库 | Milvus、Chroma、Pinecone 怎么选，生产环境怎么用 | [向量数据库选型与实战](./09-向量数据库选型与实战.md) |
+| 框架对比 | LangChain 和 LlamaIndex 各自的定位和适用场景 | [LangChain 与 LlamaIndex 框架对比](./10-LangChain与LlamaIndex框架对比.md) |
 | 作品集与表达 | 如何把 Demo 做成可验证、可讲清楚的项目 | [作品集与面试准备](./06-作品集与面试准备.md) |
 
 ## 三、不要把学习顺序搞反

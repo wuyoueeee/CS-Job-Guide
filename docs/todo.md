@@ -19,6 +19,10 @@
 - [Spring 与 Spring Boot：从容器、代理到一次事务失效](./基础知识/Spring与SpringBoot高频面试题.md)
 - [Linux 与 Git：校招够用的工程基本功](./基础知识/Linux与Git校招实用指南.md)
 - [AI 应用研发工程师求职专题](./AI应用研发/README.md)
-- [大模型使用专题](./大模型使用/README.md)
+- [大模型使用专题](./大模型使用/README.md) (+ 系统设计练习篇)
+- [AI 求职趋势与岗位分析](./AI求职/README.md)
+- [大模型与 AI 面试高频题](./基础知识/大模型与AI面试高频题.md)
+- [向量数据库选型与实战](./AI应用研发/09-向量数据库选型与实战.md)
+- [LangChain 与 LlamaIndex 框架对比](./AI应用研发/10-LangChain与LlamaIndex框架对比.md)
 
 欢迎通过 Issue 提出希望优先更新的主题。

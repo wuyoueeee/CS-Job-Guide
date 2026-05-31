@@ -26,6 +26,7 @@
   <a href="#-面试攻略及真实面经">💬 面经</a>　
   <a href="#-大模型使用专题">🤖 大模型</a>　
   <a href="#-ai-应用研发求职">🔬 AI 研发</a>　
+  <a href="#-ai-求职趋势">📈 AI 求职</a>　
   <a href="#-offer--签约">📝 签约</a>
 </p>
 
@@ -107,31 +108,37 @@ flowchart LR
 
 <table>
   <tr>
-    <td width="25%">
+    <td width="33%">
       <strong>🧭 求职导航</strong><br>
       <sub><a href="./docs/计算机求职指南.md">计算机专业求职全流程</a></sub><br>
       <sub>从方向选择到签约入职的完整路线</sub>
     </td>
-    <td width="25%">
-      <strong>☕ 后端主线</strong><br>
-      <sub><a href="./docs/基础知识/Java后端校招学习路线.md">Java 后端校招学习路线</a></sub><br>
-      <sub>八周训练计划，串起基础、工程与项目表达</sub>
+    <td width="33%">
+      <strong>🤖 AI 面试高频题</strong> 🆕<br>
+      <sub><a href="./docs/基础知识/大模型与AI面试高频题.md">大模型与 AI 面试高频题</a></sub><br>
+      <sub>Transformer、RAG、Agent、Prompt Engineering 等 7 大模块</sub>
     </td>
-    <td width="25%">
-      <strong>🔧 框架与工程</strong> 🆕<br>
-      <sub><a href="./docs/基础知识/Spring与SpringBoot高频面试题.md">Spring 与 Spring Boot</a> · <a href="./docs/基础知识/Linux与Git校招实用指南.md">Linux 与 Git</a></sub><br>
-      <sub>事务失效排查、Git 工作流等校招实用基本功</sub>
-    </td>
-    <td width="25%">
-      <strong>🔬 AI 应用研发</strong> 🆕<br>
-      <sub><a href="./docs/AI应用研发/01-岗位能力地图与十二周路线.md">岗位能力地图与十二周路线</a></sub><br>
-      <sub>对标阿里岗位，覆盖 Agent、RAG、MCP、评测与安全</sub>
+    <td width="34%">
+      <strong>📈 AI 求职趋势</strong> 🆕<br>
+      <sub><a href="./docs/AI求职/01-AI岗位全景与转型路径.md">AI 岗位全景与转型路径</a></sub><br>
+      <sub>六类 AI 岗位地图、三条转型路径、简历差异</sub>
     </td>
   </tr>
   <tr>
-    <td colspan="4">
-      <strong>🤖 大模型使用专题</strong> 🆕<br>
-      <sub><a href="./docs/大模型使用/README.md">从高质量提问到个人知识库</a> — 10 篇图文实战文章，覆盖学习、简历、面试与编程场景</sub>
+    <td width="33%">
+      <strong>🔧 框架与工程</strong><br>
+      <sub><a href="./docs/基础知识/Spring与SpringBoot高频面试题.md">Spring 与 Spring Boot</a> · <a href="./docs/基础知识/Linux与Git校招实用指南.md">Linux 与 Git</a></sub><br>
+      <sub>事务失效排查、Git 工作流等校招实用基本功</sub>
+    </td>
+    <td width="33%">
+      <strong>🔬 AI 应用研发</strong><br>
+      <sub><a href="./docs/AI应用研发/01-岗位能力地图与十二周路线.md">岗位能力地图与十二周路线</a> · <a href="./docs/AI应用研发/09-向量数据库选型与实战.md">向量数据库实战</a></sub><br>
+      <sub>对标阿里岗位，新增向量数据库、LangChain vs LlamaIndex</sub>
+    </td>
+    <td width="34%">
+      <strong>🤖 大模型使用专题</strong><br>
+      <sub><a href="./docs/大模型使用/README.md">从高质量提问到个人知识库</a> · <a href="./docs/大模型使用/11-用大模型做系统设计练习.md">系统设计练习</a></sub><br>
+      <sub>11 篇图文实战文章，新增 AI 辅助系统设计练习</sub>
     </td>
   </tr>
 </table>
@@ -184,6 +191,8 @@ flowchart LR
 | 面试  | [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md)                                             |
 | 性能  | [推理性能基础](./docs/AI应用研发/07-推理性能基础.md)                                                     |
 | 工程  | [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md)                                           |
+| 向量库 | [向量数据库选型与实战](./docs/AI应用研发/09-向量数据库选型与实战.md)                                     |
+| 框架  | [LangChain 与 LlamaIndex 框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md)                |
 
 </details>
 
@@ -193,6 +202,7 @@ flowchart LR
 
 | 方向       | 文章                                                                                                                                                                              |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AI 面试题  | [大模型与 AI 面试高频题](./docs/基础知识/大模型与AI面试高频题.md)                                                                                                                 |
 | Python     | [上篇](./docs/基础知识/Python常见知识点和面试题总结上.md) · [中篇](./docs/基础知识/Python常见知识点和面试题总结中.md) · [下篇](./docs/基础知识/Python常见知识点和面试题总结下.md) |
 | 计算机网络 | [常见知识点和面试题总结](./docs/基础知识/计算机网络常见知识点和面试题总结上%20.md)                                                                                                |
 | 操作系统   | [高频面试题](./docs/基础知识/操作系统高频面试题.md)                                                                                                                               |
@@ -211,10 +221,10 @@ flowchart LR
 
 大模型可以成为学习和求职过程中的**助教、面试官与讨论伙伴**。专题强调实战方法，也强调事实核验、隐私保护和独立思考。
 
-> 📖 **快速入门**：[如何使用大模型提升学习和求职效率](./docs/如何使用大模型提升学习和求职效率.md)　|　**完整专题**：[10 篇图文实战文章](./docs/大模型使用/README.md)
+> 📖 **快速入门**：[如何使用大模型提升学习和求职效率](./docs/如何使用大模型提升学习和求职效率.md)　|　**完整专题**：[11 篇图文实战文章](./docs/大模型使用/README.md)
 
 <details>
-<summary>📑 点击预览全部 10 篇文章</summary>
+<summary>📑 点击预览全部 11 篇文章</summary>
 <br>
 
 1. [从提问到交付：写出高质量提示词](./docs/大模型使用/01-从提问到交付：写出高质量提示词.md)
@@ -227,6 +237,7 @@ flowchart LR
 8. [用大模型检索信息与核验事实](./docs/大模型使用/08-用大模型检索信息与核验事实.md)
 9. [大模型使用中的隐私安全与边界](./docs/大模型使用/09-大模型使用中的隐私安全与边界.md)
 10. [用大模型构建个人知识库](./docs/大模型使用/10-用大模型构建个人知识库.md)
+11. [用大模型做系统设计练习](./docs/大模型使用/11-用大模型做系统设计练习.md)
 
 </details>
 
@@ -246,6 +257,19 @@ flowchart LR
 | 💼 面试  | [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md)                 | 把聊天 Demo 改造成可验证的求职项目       |
 | ⚡ 性能  | [推理性能基础](./docs/AI应用研发/07-推理性能基础.md)                         | 延迟、Streaming、KV Cache 与推理框架     |
 | 🧪 工程  | [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md)               | 用模型辅助编码，保留审查、测试和数据边界 |
+| 🗄️ 向量库 | [向量数据库选型与实战](./docs/AI应用研发/09-向量数据库选型与实战.md)         | Milvus、Chroma、Pinecone 对比与 Chroma 实战 |
+| ⚖️ 框架   | [LangChain 与 LlamaIndex 框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md) | LangChain 管流程，LlamaIndex 管数据 |
+
+---
+
+## 📈 AI 求职趋势
+
+> 2025-2026 年校招 AI 岗位大爆发——不只招算法研究员，AI 应用研发、AI 产品、AI 测试等岗位大量出现。
+
+| 内容 | 说明 |
+| --- | --- |
+| [AI 岗位全景与转型路径](./docs/AI求职/01-AI岗位全景与转型路径.md) | 六类岗位地图、三条转型路径、简历差异与常见误区 |
+| [AI 求职专题首页](./docs/AI求职/README.md) | 阅读地图与后续规划 |
 
 ---
 
