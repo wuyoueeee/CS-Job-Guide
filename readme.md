@@ -1,143 +1,218 @@
 <div align="center">
+    <a href="https://github.com/wuyoueeee/CS-Job-Guide">
+        <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/cs%20job%20guide.png" width="148" alt="CS Job Guide" />
+    </a>
+    <h1>CS Job Guide</h1>
+    <p><strong>计算机专业求职指南</strong></p>
+    <p>准备简历 · 复习基础 · 梳理项目 · 冲刺面试 · 选择 offer</p>
     <p>
-        <a href="https://github.com/wuyoueeee/CS_Job_Guide" target="_blank">
-            <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/cs%20job%20guide.png" width="200" />
-        </a>
+        <a href="http://8.142.103.57:5000/"><img src="https://img.shields.io/badge/工具-即刻简历-2ea44f.svg" alt="即刻简历" /></a>
+        <a href="https://space.bilibili.com/10406355"><img src="https://img.shields.io/badge/Bilibili-程序员无忧-fb7299.svg" alt="Bilibili" /></a>
+        <a href="https://github.com/wuyoueeee/CS-Job-Guide/stargazers"><img src="https://img.shields.io/github/stars/wuyoueeee/CS-Job-Guide?style=flat" alt="GitHub stars" /></a>
+        <a href="https://github.com/wuyoueeee/CS-Job-Guide/network/members"><img src="https://img.shields.io/github/forks/wuyoueeee/CS-Job-Guide?style=flat" alt="GitHub forks" /></a>
     </p>
     <p>
-        <a href="http://8.142.103.57:5000/"><img src="https://img.shields.io/badge/工具-即刻简历-brightgreen.svg" alt="简历" /></a>
-        <a href="https://space.bilibili.com/10406355?spm_id_from=333.976.0.0"><img src="https://img.shields.io/badge/bilibili-程序员无忧-brightgreen.svg" alt="bilibili" /></a>
-        <img src="https://img.shields.io/github/stars/wuyoueeee/CS_Job_Guide" alt="stars" />
-        <img src="https://img.shields.io/github/forks/wuyoueeee/CS_Job_Guide" alt="forks" />
+        <a href="#从这里开始"><strong>从这里开始</strong></a>
+        ·
+        <a href="#基础知识"><strong>基础知识</strong></a>
+        ·
+        <a href="#面试攻略及经验"><strong>真实面经</strong></a>
+        ·
+        <a href="#大模型使用"><strong>大模型专题</strong></a>
+        ·
+        <a href="#offer-和签约"><strong>offer 与签约</strong></a>
     </p>
 </div>
 
-> 🚩🚩🚩 成为火影之路，绝无捷径可言
+![CS Job Guide 求职路线主视觉](./docs/images/cs-job-guide-hero.png)
 
-如果你正在寻找一份全面的**计算机专业求职攻略**，那么这篇专栏是你**不容错过的宝藏**！
-这篇攻略涵盖了校招时间表、求职攻略、简历制作、自我介绍、基础知识、求职信息及渠道、面试攻略及经验、关于offer和三方、关于签约你要知道的事情、职业发展等方面的资料，**内容非常全面**。
-除此之外，还提供了前端、后端和算法等方面的**基础知识**，并且汇总了许多**求职信息和渠道**。
+> 求职没有标准答案，但充分准备会让每一次选择更有底气。
 
-# 目录
-- [目录](#目录)
-  - [校招时间表](#校招时间表)
-  - [简历制作](#简历制作)
-  - [基础知识](#基础知识)
-  - [大模型使用](#大模型使用)
-  - [求职信息及渠道](#求职信息及渠道)
-  - [面试攻略及经验](#面试攻略及经验)
-  - [关于offer和三方](#关于offer和三方)
-  - [关于签约你要知道的事情](#关于签约你要知道的事情)
-  - [职业发展](#职业发展)
-  - [我的知识星球](#我的知识星球)
-  - [Star 趋势](#star-趋势)
+---
 
+## 从这里开始
 
-<a name="Scheduled"></a>
+CS Job Guide 是一份面向计算机专业学生的求职资料库，适合正在准备实习、春招、秋招和职业选择的同学。这里不追求资料越多越好，更希望帮你在正确的阶段找到真正需要的内容。
+
+| 01 了解节奏 | 02 准备材料 | 03 集中复习 | 04 面试冲刺 | 05 做出选择 |
+| --- | --- | --- | --- | --- |
+| [校招时间表](#校招时间表)<br />[求职渠道](#求职信息及渠道) | [简历制作](#简历制作)<br />[自我介绍](./docs/自我介绍.md) | [基础知识](#基础知识)<br />[大模型专题](./docs/大模型使用/README.md) | [真实面经](#面试攻略及经验)<br />[项目总结](./docs/如何总结项目.md) | [offer 和签约](#offer-和签约)<br />[职业发展](#职业发展) |
+
+### 一条可执行的求职路线
+
+```mermaid
+flowchart LR
+    A[了解校招节奏] --> B[整理经历与简历]
+    B --> C[复习基础知识]
+    C --> D[梳理项目亮点]
+    D --> E[模拟面试与复盘]
+    E --> F[持续投递]
+    F --> G[比较 offer]
+    G --> H[完成签约]
+```
+
+### 最近更新
+
+| 专题 | 内容 | 推荐理由 |
+| --- | --- | --- |
+| **大模型使用专题** | [从高质量提问到个人知识库](./docs/大模型使用/README.md) | 10 篇图文实战文章，覆盖学习、简历、面试与编程 |
+| **快速入门** | [如何使用大模型提升学习和求职效率](./docs/如何使用大模型提升学习和求职效率.md) | 先建立正确使用方式，再挑选具体场景深入阅读 |
+
+> 部分栏目仍在持续补充中。欢迎 Star、分享和参与完善。
+
+---
 
 ## 校招时间表
-![](https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E6%97%B6%E9%97%B4%E8%BD%B4.png)
 
-<a name="resume"></a>
+不同公司和岗位的招聘节奏可能变化，请以企业招聘官网和官方公告为准。
+
+![校招时间轴](https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E6%97%B6%E9%97%B4%E8%BD%B4.png)
+
+---
 
 ## 简历制作
 
-- [最新上线的简历评估工具：即刻简历](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E5%8D%B3%E5%88%BB%E7%AE%80%E5%8E%86.md)⭐⭐⭐
-- [一份真实的的互联网大厂简历](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E4%B8%80%E4%BB%BD%E7%9C%9F%E5%AE%9E%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82%E7%AE%80%E5%8E%86.md) 
-- [简历的重要性](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E7%AE%80%E5%8E%86%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7.md) 
-- [如何写好一份简历](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E4%B8%80%E4%BB%BD%E7%AE%80%E5%8E%86.md)
-- [好用的简历模板](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF.md)
-- [常见项目的STAR原则描述](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/STAR%E5%8E%9F%E5%88%99.md)
-- [简历修改（知识星球）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E7%AE%80%E5%8E%86/%E7%AE%80%E5%8E%86%E4%BF%AE%E6%94%B9%E6%9C%8D%E5%8A%A1.md)
-- [人手一份的求职表（强烈推荐）](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E6%B1%82%E8%81%8C%E8%A1%A8.md)
+一份好简历的核心不是堆叠技术名词，而是清楚地说明：你做过什么、解决了什么问题、产生了什么结果。
 
-<a name="basicKnowledge"></a>
+| 内容 | 说明 |
+| --- | --- |
+| [即刻简历：简历评估工具](./docs/简历/即刻简历.md) | 快速检查简历表达 |
+| [如何写好一份简历](./docs/简历/如何写好一份简历.md) | 从结构到内容梳理简历 |
+| [简历的重要性](./docs/简历/简历的重要性.md) | 理解简历在求职中的作用 |
+| [一份真实的互联网大厂简历](./docs/简历/一份真实的互联网大厂简历.md) | 参考真实案例 |
+| [好用的简历模板](./docs/简历/好用的简历模板.md) | 选择适合自己的版式 |
+| [常见项目的 STAR 原则描述](./docs/简历/STAR原则.md) | 优化项目经历表达 |
+| [简历修改服务](./docs/简历/简历修改服务.md) | 获取进一步反馈 |
+| [人手一份的求职表](./docs/求职表.md) | 跟踪投递和面试进度 |
+
+---
 
 ## 基础知识
-- [如何复习基础知识](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E5%A4%8D%E4%B9%A0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md) 
-- [如何总结项目](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E6%80%BB%E7%BB%93%E9%A1%B9%E7%9B%AE.md)
-- [MySQL基础高频面试题](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/MySQL%E5%9F%BA%E7%A1%80%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98%20.md)
-- [MySQL进阶高频面试题](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/MySQL%E8%BF%9B%E9%98%B6%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98.md)
-- [Python常见知识点和面试题总结（上）](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Python%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9%E5%92%8C%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93%E4%B8%8A.md)
-- [Python常见知识点和面试题总结（中）](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Python%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9%E5%92%8C%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93%E4%B8%AD.md)
-- [Python常见知识点和面试题总结（下）](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Python%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9%E5%92%8C%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93%E4%B8%8B.md)
-- [前端](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88.md)
-- [后端](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
-- [算法](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
 
-<a name="largeLanguageModel"></a>
+先建立知识框架，再通过模拟问答检查薄弱点。基础知识复习的目标不是“看过”，而是能够用自己的语言讲清楚。
+
+### 学习方法
+
+| 内容 | 说明 |
+| --- | --- |
+| [如何复习基础知识](./docs/如何复习基础知识.md) | 建立适合自己的复习节奏 |
+| [如何总结项目](./docs/如何总结项目.md) | 把项目经验转化为面试表达 |
+| [聊聊如何找实习，写简历，为秋招做准备](./docs/聊聊如何找实习，写简历，为秋招做准备.md) | 从实习到秋招的整体建议 |
+| [如何调整心态](./docs/如何调整心态.md) | 在求职过程中保持稳定状态 |
+
+### 面试知识
+
+| 方向 | 内容 |
+| --- | --- |
+| MySQL | [基础高频面试题](./docs/基础知识/MySQL基础高频面试题%20.md) · [进阶高频面试题](./docs/基础知识/MySQL进阶高频面试题.md) · [高级高频面试题](./docs/基础知识/MySQL高级高频面试题.md) |
+| Python | [上篇](./docs/基础知识/Python常见知识点和面试题总结上.md) · [中篇](./docs/基础知识/Python常见知识点和面试题总结中.md) · [下篇](./docs/基础知识/Python常见知识点和面试题总结下.md) |
+| 计算机网络 | [常见知识点和面试题总结](./docs/基础知识/计算机网络常见知识点和面试题总结上%20.md) |
+| 前端 | [前端工程师学习路线](./docs/基础知识/前端工程师.md) |
+| 后端 | [持续补充中](./docs/todo.md) |
+| 算法 | [持续补充中](./docs/todo.md) |
+
+---
 
 ## 大模型使用
-- [大模型使用专题：从高质量提问到个人知识库](./docs/大模型使用/README.md) ⭐⭐⭐
-- [如何使用大模型提升学习和求职效率](./docs/如何使用大模型提升学习和求职效率.md)
 
-<a name="information"></a>
+![大模型使用专题封面](./docs/大模型使用/images/大模型使用专题封面.png)
+
+大模型可以成为学习和求职过程中的助教、面试官与讨论伙伴。专题文章强调实战方法，也强调事实核验、隐私保护和独立思考。
+
+| 推荐内容 | 说明 |
+| --- | --- |
+| [大模型使用专题：从高质量提问到个人知识库](./docs/大模型使用/README.md) | 10 篇图文实战文章，按场景阅读 |
+| [如何使用大模型提升学习和求职效率](./docs/如何使用大模型提升学习和求职效率.md) | 快速入门总览 |
+
+专题覆盖：提示词、复习计划、模拟面试、简历优化、项目复盘、编程调试、资料阅读、事实核验、隐私安全和个人知识库。
+
+---
 
 ## 求职信息及渠道
 
-- [八百家国企名单目录](https://t.zsxq.com/0dhNKXNU8)
-- [三百家互联网求职名单](https://t.zsxq.com/0dPXh5iHm)
-- [银行相关求职信息汇总](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
-- [常见的求职渠道](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
+| 内容 | 状态 |
+| --- | --- |
+| [八百家国企名单目录](https://t.zsxq.com/0dhNKXNU8) | 已发布 |
+| [三百家互联网求职名单](https://t.zsxq.com/0dPXh5iHm) | 已发布 |
+| [银行相关求职信息汇总](./docs/todo.md) | 持续补充中 |
+| [常见求职渠道](./docs/todo.md) | 持续补充中 |
 
-<a name="interview"></a>
+---
 
 ## 面试攻略及经验
-- [面试中如何进行自我介绍](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.md)
-- [百度C++提前批面经](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E7%99%BE%E5%BA%A6C%2B%2B%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F.md)
-- [面试阿里4次，全过！大厂面试经验分享](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E8%AF%95%E9%98%BF%E9%87%8C4%E6%AC%A1%EF%BC%8C%E5%85%A8%E8%BF%87%EF%BC%81%E5%A4%A7%E5%8E%82%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md) 💯
-- [阿里菜鸟网络后端暑期实习（已OC） ](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E9%98%BF%E9%87%8C%E8%8F%9C%E9%B8%9F%E7%BD%91%E7%BB%9C%E5%90%8E%E7%AB%AF%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%EF%BC%88%E5%B7%B2OC%EF%BC%89.md) 
-- [双非拿了美团offer，值得学习](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E5%8F%8C%E9%9D%9E%E6%8B%BF%E4%BA%86%E7%BE%8E%E5%9B%A2offer.md) 💯
-- [美团后端开发面试经验分享（已offer）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E7%BE%8E%E5%9B%A2%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%EF%BC%88%E5%B7%B2offer%EF%BC%89.md) 💯
-- [快手春招Java后端面试经验分享（已offer）](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E5%BF%AB%E6%89%8B%E6%98%A5%E6%8B%9BJava%E5%90%8E%E7%AB%AF%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%EF%BC%88%E5%B7%B2offer%EF%BC%89.md) 💯
-- [快手实习Java后端面试经验分享（已OC）](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E5%BF%AB%E6%89%8B%E5%AE%9E%E4%B9%A0Java%E5%90%8E%E7%AB%AF%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%EF%BC%88%E5%B7%B2OC%EF%BC%89.md) 💯 
-- [招商银行信用卡中心暑期实习面经](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E9%9D%A2%E7%BB%8F/%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F.md) 💯
 
-<a name="employmentContract"></a>
+面试不是背诵比赛。阅读面经时，重点关注问题脉络、项目追问和自己的表达薄弱点。
 
-## 关于offer和三方
-- [如何谈薪](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
-- [如何明智的选择offer](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A4%9A%E4%B8%AAoffer%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E9%80%89%E6%8B%A9.md)
+### 面试准备
 
-<a name="signing"></a>
+| 内容 | 说明 |
+| --- | --- |
+| [面试中如何进行自我介绍](./docs/自我介绍.md) | 覆盖前端、后端、算法、测试、客户端和硬件方向 |
+| [如何总结项目](./docs/如何总结项目.md) | 提炼项目亮点和回答思路 |
+| [面试阿里 4 次，全过！大厂面试经验分享](./docs/面试阿里4次，全过！大厂面试经验分享.md) | 面试准备与流程复盘 |
 
-## 关于签约你要知道的事情
-- [签offer](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
-- [签三方](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
-- [毁约](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
-- [被毁约](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
+### 真实面经
 
-<a name="careerDevelopment"></a>
+| 公司 | 方向 | 文章 |
+| --- | --- | --- |
+| 阿里菜鸟网络 | 后端暑期实习 | [已 OC](./docs/面经/阿里菜鸟网络后端暑期实习（已OC）.md) |
+| 美团 | 后端开发 | [已 offer](./docs/面经/美团面试经验分享（已offer）.md) |
+| 美团 | 成长与求职复盘 | [双非拿了美团 offer](./docs/面经/双非拿了美团offer.md) |
+| 快手 | Java 后端春招 | [已 offer](./docs/面经/快手春招Java后端面试经验分享（已offer）.md) |
+| 快手 | Java 后端实习 | [已 OC](./docs/面经/快手实习Java后端面试经验分享（已OC）.md) |
+| 百度 | C++ 提前批 | [面经](./docs/面经/百度C++提前批面经.md) |
+| 招商银行信用卡中心 | 暑期实习 | [面经](./docs/面经/招商银行信用卡暑期实习面经.md) |
+
+---
+
+## offer 和签约
+
+| 阶段 | 内容 |
+| --- | --- |
+| offer 比较 | [如何明智地选择 offer](./docs/多个offer如何进行选择.md) |
+| 谈薪 | [持续补充中](./docs/todo.md) |
+| 签 offer | [持续补充中](./docs/todo.md) |
+| 签三方 | [持续补充中](./docs/todo.md) |
+| 毁约与被毁约 | [持续补充中](./docs/todo.md) |
+
+---
 
 ## 职业发展
-- [常见互联网黑话](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95/%E4%BA%92%E8%81%94%E7%BD%91%E9%BB%91%E8%AF%9D.md)
-- [你说想搞技术，为什么不去互联网呢？](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95/%E9%9D%A2%E8%AF%95%E4%B8%AD%E6%8F%90%E9%97%AE%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%8E%BB%E4%BA%92%E8%81%94%E7%BD%91.md)
-- [真香警告！银行科技岗/金融科技岗到底怎么样？](https://www.bilibili.com/video/BV12e411V7KM/?vd_source=f77f520ad7e300859421d5fcac59f4aa)
 
-<a name="zsxq"></a>
+| 内容 | 说明 |
+| --- | --- |
+| [常见互联网黑话](./docs/职业发展/互联网黑话.md) | 理解互联网职场常用表达 |
+| [面试中被问：为什么不去互联网？](./docs/职业发展/面试中提问为什么不去互联网.md) | 梳理岗位选择思路 |
+| [银行科技岗 / 金融科技岗到底怎么样？](https://www.bilibili.com/video/BV12e411V7KM/) | 视频分享 |
+
+---
 
 ## 我的知识星球
-**星球介绍：** ⭐⭐⭐⭐⭐
 
-**希望作为寒气中的一股暖风，为大家提供有价值的求职面试服务。**
+希望作为寒气中的一股暖风，为大家提供有价值的求职面试服务。
 
-**个人介绍**：拿过阿里巴巴、美团等众多互联网大厂offer，同时也拿过四大行、央/国企等offer，对**职业规划、求职面试**方面经验丰富！！！
+加入星球，你将获得：
 
-加入到这个星球，你将获得：
-1. **最新校招信息汇总**，重要且及时，助你随时掌握校招动态
-2. **免费的简历修改服务**(已经累计助力**600位同学**求职)
-3. **海量求职资源分享**！价值远超门票！
-4. **专属求职指南和建议**，帮助你顺利找到理想工作
-5. **学习交流**，让我们一起努力创造一个高质量的求职圈子。
+1. 最新校招信息汇总，及时了解校招动态。
+2. 简历修改服务，帮助发现表达和结构问题。
+3. 求职资源分享，减少重复收集资料的时间。
+4. 个性化求职指南和建议。
+5. 学习交流，与同路人一起稳步前进。
 
 <div align="center">
-    <p>
-        <a href="https://github.com/wuyoueeee/CS_Job_Guide" target="_blank">
-            <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E6%B5%B7%E6%8A%A5%20(2).png" width="300" />
-        </a>
-    </p>
+    <a href="https://github.com/wuyoueeee/CS-Job-Guide">
+        <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E6%B5%B7%E6%8A%A5%20(2).png" width="300" alt="知识星球" />
+    </a>
 </div>
+
+---
 
 ## Star 趋势
 
-![](https://api.star-history.com/svg?repos=wuyoueeee/CS-Job-Guide&type=Date)
+如果这份专栏对你有帮助，欢迎点一个 Star。你的支持会让它持续更新下去。
+
+![Star 趋势](https://api.star-history.com/svg?repos=wuyoueeee/CS-Job-Guide&type=Date)
+
+<div align="center">
+    <sub>持续更新中 · 愿每一次准备，都能让你离理想工作更近一点。</sub>
+</div>
