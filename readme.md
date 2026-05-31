@@ -20,6 +20,8 @@
         ·
         <a href="#大模型使用"><strong>大模型专题</strong></a>
         ·
+        <a href="#ai-应用研发求职"><strong>AI 应用研发</strong></a>
+        ·
         <a href="#offer-和签约"><strong>offer 与签约</strong></a>
     </p>
 </div>
@@ -58,6 +60,7 @@ flowchart LR
 | **求职导航** | [计算机专业求职全流程](./docs/计算机求职指南.md) | 从选择方向、准备材料到签约入职 |
 | **后端主线** | [Java 后端校招学习路线](./docs/基础知识/Java后端校招学习路线.md) | 八周训练计划，串起基础知识、工程排查和项目表达 |
 | **框架与工程** | [Spring 与 Spring Boot](./docs/基础知识/Spring与SpringBoot高频面试题.md) · [Linux 与 Git](./docs/基础知识/Linux与Git校招实用指南.md) | 从事务失效到服务排查，补齐校招实用基本功 |
+| **AI 应用研发** | [岗位能力地图与十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md) | 根据阿里校园招聘岗位要求，补齐 Agent、RAG、MCP、评测与安全 |
 | **大模型使用专题** | [从高质量提问到个人知识库](./docs/大模型使用/README.md) | 10 篇图文实战文章，覆盖学习、简历、面试与编程 |
 
 > 部分栏目仍在持续补充中。欢迎 Star、分享和参与完善。
@@ -108,6 +111,7 @@ flowchart LR
 | 方向 | 内容 |
 | --- | --- |
 | Java 后端 | [校招学习路线](./docs/基础知识/Java后端校招学习路线.md) · [Java 基础与集合](./docs/基础知识/Java基础与集合高频面试题.md) · [JVM](./docs/基础知识/JVM高频面试题.md) · [Redis](./docs/基础知识/Redis高频面试题.md) · [Spring 与 Spring Boot](./docs/基础知识/Spring与SpringBoot高频面试题.md) |
+| AI 应用研发 | [专题首页](./docs/AI应用研发/README.md) · [十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md) · [Agent](./docs/AI应用研发/02-Agent系统设计与工程化.md) · [RAG](./docs/AI应用研发/03-RAG从检索到评测.md) · [MCP](./docs/AI应用研发/04-ToolCalling与MCP.md) · [评测与安全](./docs/AI应用研发/05-评测可观测与安全.md) |
 | 工程基本功 | [Linux 与 Git 校招实用指南](./docs/基础知识/Linux与Git校招实用指南.md) |
 | MySQL | [基础高频面试题](./docs/基础知识/MySQL基础高频面试题%20.md) · [进阶高频面试题](./docs/基础知识/MySQL进阶高频面试题.md) · [高级高频面试题](./docs/基础知识/MySQL高级高频面试题.md) |
 | Python | [上篇](./docs/基础知识/Python常见知识点和面试题总结上.md) · [中篇](./docs/基础知识/Python常见知识点和面试题总结中.md) · [下篇](./docs/基础知识/Python常见知识点和面试题总结下.md) |
@@ -130,6 +134,24 @@ flowchart LR
 | [如何使用大模型提升学习和求职效率](./docs/如何使用大模型提升学习和求职效率.md) | 快速入门总览 |
 
 专题覆盖：提示词、复习计划、模拟面试、简历优化、项目复盘、编程调试、资料阅读、事实核验、隐私安全和个人知识库。
+
+---
+
+## AI 应用研发求职
+
+根据阿里巴巴校园招聘 [AI 应用研发工程师](https://campus-talent.alibaba.com/campus/position/199903220038?deptCodes=) 岗位要求，新增一条面向研发岗位的专题路线。重点不在“会不会调用模型”，而在于能否交付一个可评测、可观测、能降级、有安全边界的 AI 系统。
+
+| 内容 | 说明 |
+| --- | --- |
+| [专题首页](./docs/AI应用研发/README.md) | 认识 AI 应用研发与日常使用大模型的区别 |
+| [岗位能力地图与十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md) | 从岗位描述反推学习顺序和验收产物 |
+| [Agent 系统设计](./docs/AI应用研发/02-Agent系统设计与工程化.md) | 状态、编排、重试、降级与多 Agent 边界 |
+| [RAG 从检索到评测](./docs/AI应用研发/03-RAG从检索到评测.md) | 分块、召回、重排、引用和错误归因 |
+| [Tool Calling 与 MCP](./docs/AI应用研发/04-ToolCalling与MCP.md) | 工具协议、权限、确认和审计 |
+| [评测、可观测与安全](./docs/AI应用研发/05-评测可观测与安全.md) | 回归测试、Trace、性能、降级与提示词注入 |
+| [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md) | 把聊天 Demo 改造成可以验证的求职项目 |
+| [推理性能基础](./docs/AI应用研发/07-推理性能基础.md) | 延迟、Streaming、KV Cache 与推理框架 |
+| [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md) | 用模型辅助编码，同时保留审查、测试和数据边界 |
 
 ---
 
