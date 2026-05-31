@@ -14,7 +14,6 @@
 选择方向 · 准备简历 · 复习基础 · 冲刺面试 · 完成签约
 
 <p>
-  <a href="http://8.142.103.57:5000/"><img src="https://img.shields.io/badge/🔧_工具-即刻简历-2ea44f?style=for-the-badge" alt="即刻简历" /></a>
   <a href="https://space.bilibili.com/10406355"><img src="https://img.shields.io/badge/📺_B站-程序员无忧-fb7299?style=for-the-badge" alt="Bilibili" /></a>
   <a href="https://github.com/wuyoueeee/CS-Job-Guide/stargazers"><img src="https://img.shields.io/github/stars/wuyoueeee/CS-Job-Guide?style=for-the-badge&color=yellow" alt="Stars" /></a>
   <a href="https://github.com/wuyoueeee/CS-Job-Guide/network/members"><img src="https://img.shields.io/github/forks/wuyoueeee/CS-Job-Guide?style=for-the-badge&color=blue" alt="Forks" /></a>
@@ -181,18 +180,18 @@ flowchart LR
 <summary><strong>🔬 AI 应用研发</strong> — 对标阿里校招岗位，点击展开</summary>
 <br>
 
-| 模块  | 文章                                                                                                     |
-| ----- | -------------------------------------------------------------------------------------------------------- |
-| 总览  | [专题首页](./docs/AI应用研发/README.md) · [十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md) |
-| Agent | [Agent 系统设计与工程化](./docs/AI应用研发/02-Agent系统设计与工程化.md)                                  |
-| RAG   | [RAG 从检索到评测](./docs/AI应用研发/03-RAG从检索到评测.md)                                              |
-| MCP   | [Tool Calling 与 MCP](./docs/AI应用研发/04-ToolCalling与MCP.md)                                          |
-| 评测  | [评测、可观测与安全](./docs/AI应用研发/05-评测可观测与安全.md)                                           |
-| 面试  | [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md)                                             |
-| 性能  | [推理性能基础](./docs/AI应用研发/07-推理性能基础.md)                                                     |
-| 工程  | [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md)                                           |
+| 模块   | 文章                                                                                                     |
+| ------ | -------------------------------------------------------------------------------------------------------- |
+| 总览   | [专题首页](./docs/AI应用研发/README.md) · [十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md) |
+| Agent  | [Agent 系统设计与工程化](./docs/AI应用研发/02-Agent系统设计与工程化.md)                                  |
+| RAG    | [RAG 从检索到评测](./docs/AI应用研发/03-RAG从检索到评测.md)                                              |
+| MCP    | [Tool Calling 与 MCP](./docs/AI应用研发/04-ToolCalling与MCP.md)                                          |
+| 评测   | [评测、可观测与安全](./docs/AI应用研发/05-评测可观测与安全.md)                                           |
+| 面试   | [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md)                                             |
+| 性能   | [推理性能基础](./docs/AI应用研发/07-推理性能基础.md)                                                     |
+| 工程   | [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md)                                           |
 | 向量库 | [向量数据库选型与实战](./docs/AI应用研发/09-向量数据库选型与实战.md)                                     |
-| 框架  | [LangChain 与 LlamaIndex 框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md)                |
+| 框架   | [LangChain 与 LlamaIndex 框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md)                |
 
 </details>
 
@@ -247,18 +246,18 @@ flowchart LR
 
 > 根据阿里巴巴校园招聘 [AI 应用研发工程师](https://campus-talent.alibaba.com/campus/position/199903220038?deptCodes=) 岗位要求整理。重点不在"会不会调用模型"，而在于**能否交付一个可评测、可观测、能降级、有安全边界的 AI 系统**。
 
-| 模块    | 文章                                                                         | 你学到什么                               |
-| ------- | ---------------------------------------------------------------------------- | ---------------------------------------- |
-| 🗺️ 路线  | [岗位能力地图与十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md) | 从岗位描述反推学习顺序和验收产物         |
-| 🤖 Agent | [Agent 系统设计](./docs/AI应用研发/02-Agent系统设计与工程化.md)              | 状态、编排、重试、降级与多 Agent 边界    |
-| 📚 RAG   | [RAG 从检索到评测](./docs/AI应用研发/03-RAG从检索到评测.md)                  | 分块、召回、重排、引用和错误归因         |
-| 🔌 MCP   | [Tool Calling 与 MCP](./docs/AI应用研发/04-ToolCalling与MCP.md)              | 工具协议、权限、确认和审计               |
-| 🛡️ 评测  | [评测、可观测与安全](./docs/AI应用研发/05-评测可观测与安全.md)               | 回归测试、Trace、性能、降级与提示词注入  |
-| 💼 面试  | [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md)                 | 把聊天 Demo 改造成可验证的求职项目       |
-| ⚡ 性能  | [推理性能基础](./docs/AI应用研发/07-推理性能基础.md)                         | 延迟、Streaming、KV Cache 与推理框架     |
-| 🧪 工程  | [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md)               | 用模型辅助编码，保留审查、测试和数据边界 |
-| 🗄️ 向量库 | [向量数据库选型与实战](./docs/AI应用研发/09-向量数据库选型与实战.md)         | Milvus、Chroma、Pinecone 对比与 Chroma 实战 |
-| ⚖️ 框架   | [LangChain 与 LlamaIndex 框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md) | LangChain 管流程，LlamaIndex 管数据 |
+| 模块     | 文章                                                                                      | 你学到什么                                  |
+| -------- | ----------------------------------------------------------------------------------------- | ------------------------------------------- |
+| 🗺️ 路线   | [岗位能力地图与十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md)              | 从岗位描述反推学习顺序和验收产物            |
+| 🤖 Agent  | [Agent 系统设计](./docs/AI应用研发/02-Agent系统设计与工程化.md)                           | 状态、编排、重试、降级与多 Agent 边界       |
+| 📚 RAG    | [RAG 从检索到评测](./docs/AI应用研发/03-RAG从检索到评测.md)                               | 分块、召回、重排、引用和错误归因            |
+| 🔌 MCP    | [Tool Calling 与 MCP](./docs/AI应用研发/04-ToolCalling与MCP.md)                           | 工具协议、权限、确认和审计                  |
+| 🛡️ 评测   | [评测、可观测与安全](./docs/AI应用研发/05-评测可观测与安全.md)                            | 回归测试、Trace、性能、降级与提示词注入     |
+| 💼 面试   | [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md)                              | 把聊天 Demo 改造成可验证的求职项目          |
+| ⚡ 性能   | [推理性能基础](./docs/AI应用研发/07-推理性能基础.md)                                      | 延迟、Streaming、KV Cache 与推理框架        |
+| 🧪 工程   | [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md)                            | 用模型辅助编码，保留审查、测试和数据边界    |
+| 🗄️ 向量库 | [向量数据库选型与实战](./docs/AI应用研发/09-向量数据库选型与实战.md)                      | Milvus、Chroma、Pinecone 对比与 Chroma 实战 |
+| ⚖️ 框架   | [LangChain 与 LlamaIndex 框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md) | LangChain 管流程，LlamaIndex 管数据         |
 
 ---
 
@@ -266,10 +265,10 @@ flowchart LR
 
 > 2025-2026 年校招 AI 岗位大爆发——不只招算法研究员，AI 应用研发、AI 产品、AI 测试等岗位大量出现。
 
-| 内容 | 说明 |
-| --- | --- |
+| 内容                                                              | 说明                                           |
+| ----------------------------------------------------------------- | ---------------------------------------------- |
 | [AI 岗位全景与转型路径](./docs/AI求职/01-AI岗位全景与转型路径.md) | 六类岗位地图、三条转型路径、简历差异与常见误区 |
-| [AI 求职专题首页](./docs/AI求职/README.md) | 阅读地图与后续规划 |
+| [AI 求职专题首页](./docs/AI求职/README.md)                        | 阅读地图与后续规划                             |
 
 ---
 
