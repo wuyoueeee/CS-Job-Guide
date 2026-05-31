@@ -1,0 +1,340 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+
+    <!-- 芯片主体渐变 -->
+    <linearGradient id="chipGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4776E6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8E54E9" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <!-- 芯片边框渐变 -->
+    <linearGradient id="chipStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4776E6" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#8E54E9" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4776E6" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- 节点发光渐变 -->
+    <radialGradient id="nodeGlow">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nodeGlowPurple">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="centerGlow">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- 连线渐变 -->
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4776E6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- 标题文字渐变 -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <!-- 发光滤镜 -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="chipGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 网格图案 -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="0.8" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+
+    <pattern id="gridLarge" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="40" cy="40" r="1.2" fill="#ffffff" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- 点阵背景 -->
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#gridLarge)"/>
+
+  <!-- 装饰性背景圆形光晕 -->
+  <circle cx="250" cy="120" r="180" fill="#4776E6" opacity="0.04"/>
+  <circle cx="950" cy="500" r="200" fill="#8E54E9" opacity="0.04"/>
+  <circle cx="600" cy="315" r="250" fill="#6366f1" opacity="0.03"/>
+
+  <!-- ==================== 连线层（芯片后方） ==================== -->
+
+  <!-- 左侧连线 -->
+  <g opacity="0.35">
+    <line x1="140" y1="200" x2="500" y2="260" stroke="url(#lineGrad1)" stroke-width="1.2"/>
+    <line x1="120" y1="350" x2="500" y2="310" stroke="url(#lineGrad2)" stroke-width="1"/>
+    <line x1="160" y1="480" x2="500" y2="380" stroke="url(#lineGrad1)" stroke-width="1.2"/>
+    <line x1="130" y1="270" x2="180" y2="200" stroke="#00d4ff" stroke-width="0.8" opacity="0.4"/>
+    <line x1="130" y1="270" x2="150" y2="480" stroke="#a855f7" stroke-width="0.8" opacity="0.3"/>
+    <line x1="180" y1="200" x2="160" y2="480" stroke="#4776E6" stroke-width="0.8" opacity="0.3"/>
+  </g>
+
+  <!-- 右侧连线 -->
+  <g opacity="0.35">
+    <line x1="700" y1="260" x2="1050" y2="200" stroke="url(#lineGrad1)" stroke-width="1.2"/>
+    <line x1="700" y1="310" x2="1080" y2="350" stroke="url(#lineGrad2)" stroke-width="1"/>
+    <line x1="700" y1="380" x2="1040" y2="480" stroke="url(#lineGrad1)" stroke-width="1.2"/>
+    <line x1="1050" y1="200" x2="1040" y2="480" stroke="#00d4ff" stroke-width="0.8" opacity="0.3"/>
+    <line x1="1050" y1="200" x2="1080" y2="350" stroke="#a855f7" stroke-width="0.8" opacity="0.3"/>
+    <line x1="1080" y1="350" x2="1040" y2="480" stroke="#4776E6" stroke-width="0.8" opacity="0.3"/>
+  </g>
+
+  <!-- 上方连线 -->
+  <g opacity="0.3">
+    <line x1="300" y1="80" x2="530" y2="200" stroke="url(#lineGrad2)" stroke-width="1"/>
+    <line x1="600" y1="60" x2="600" y2="195" stroke="url(#lineGrad1)" stroke-width="1"/>
+    <line x1="900" y1="80" x2="670" y2="200" stroke="url(#lineGrad2)" stroke-width="1"/>
+    <line x1="300" y1="80" x2="600" y2="60" stroke="#00d4ff" stroke-width="0.8" opacity="0.4"/>
+    <line x1="600" y1="60" x2="900" y2="80" stroke="#a855f7" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- ==================== 节点层 ==================== -->
+
+  <!-- 左侧节点 -->
+  <g filter="url(#glowSoft)">
+    <!-- 左上节点 - Agent -->
+    <circle cx="150" cy="200" r="5" fill="#00d4ff" opacity="0.85"/>
+    <circle cx="150" cy="200" r="10" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.3"/>
+
+    <!-- 左中节点 - 连接枢纽 -->
+    <circle cx="130" cy="320" r="7" fill="#6366f1" opacity="0.9"/>
+    <circle cx="130" cy="320" r="14" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.25"/>
+
+    <!-- 左下节点 - RAG -->
+    <circle cx="160" cy="470" r="5" fill="#a855f7" opacity="0.85"/>
+    <circle cx="160" cy="470" r="10" fill="none" stroke="#a855f7" stroke-width="0.8" opacity="0.3"/>
+  </g>
+
+  <!-- 右侧节点 -->
+  <g filter="url(#glowSoft)">
+    <!-- 右上节点 - MCP -->
+    <circle cx="1040" cy="200" r="5" fill="#00d4ff" opacity="0.85"/>
+    <circle cx="1040" cy="200" r="10" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.3"/>
+
+    <!-- 右中节点 - 连接枢纽 -->
+    <circle cx="1070" cy="320" r="7" fill="#6366f1" opacity="0.9"/>
+    <circle cx="1070" cy="320" r="14" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.25"/>
+
+    <!-- 右下节点 - Tools -->
+    <circle cx="1040" cy="470" r="5" fill="#a855f7" opacity="0.85"/>
+    <circle cx="1040" cy="470" r="10" fill="none" stroke="#a855f7" stroke-width="0.8" opacity="0.3"/>
+  </g>
+
+  <!-- 顶部节点 -->
+  <g filter="url(#glowSoft)">
+    <circle cx="320" cy="80" r="5" fill="#4776E6" opacity="0.85"/>
+    <circle cx="320" cy="80" r="10" fill="none" stroke="#4776E6" stroke-width="0.8" opacity="0.3"/>
+
+    <circle cx="600" cy="60" r="6" fill="#00d4ff" opacity="0.9"/>
+    <circle cx="600" cy="60" r="12" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.3"/>
+
+    <circle cx="880" cy="80" r="5" fill="#a855f7" opacity="0.85"/>
+    <circle cx="880" cy="80" r="10" fill="none" stroke="#a855f7" stroke-width="0.8" opacity="0.3"/>
+  </g>
+
+  <!-- ==================== 中央芯片/六边形主体 ==================== -->
+  <g filter="url(#chipGlow)">
+    <!-- 芯片外发光 -->
+    <polygon
+      points="600,170 770,270 770,410 600,510 430,410 430,270"
+      fill="#6366f1" opacity="0.06"
+    />
+    <polygon
+      points="600,182 758,274 758,398 600,498 442,398 442,274"
+      fill="none" stroke="#6366f1" stroke-width="0.5" opacity="0.25"
+    />
+
+    <!-- 芯片主体 -->
+    <polygon
+      points="600,195 745,280 745,390 600,480 455,390 455,280"
+      fill="url(#chipGradient)" stroke="url(#chipStroke)" stroke-width="2"
+    />
+
+    <!-- 芯片内六边形 - 第二层 -->
+    <polygon
+      points="600,225 715,293 715,378 600,450 485,378 485,293"
+      fill="none" stroke="#4776E6" stroke-width="0.8" opacity="0.35"
+    />
+
+    <!-- 芯片内六边形 - 第三层 -->
+    <polygon
+      points="600,255 685,307 685,366 600,420 515,366 515,307"
+      fill="none" stroke="#8E54E9" stroke-width="0.6" opacity="0.3"
+    />
+
+    <!-- 芯片内部装饰线条 -->
+    <line x1="600" y1="225" x2="600" y2="450" stroke="#4776E6" stroke-width="0.5" opacity="0.15"/>
+    <line x1="485" y1="293" x2="715" y2="378" stroke="#4776E6" stroke-width="0.4" opacity="0.12"/>
+    <line x1="485" y1="378" x2="715" y2="293" stroke="#8E54E9" stroke-width="0.4" opacity="0.12"/>
+    <line x1="485" y1="293" x2="715" y2="293" stroke="#4776E6" stroke-width="0.4" opacity="0.1"/>
+    <line x1="485" y1="378" x2="715" y2="378" stroke="#8E54E9" stroke-width="0.4" opacity="0.1"/>
+
+    <!-- 芯片内中心 AI 电路符号 -->
+    <g transform="translate(600, 310)" opacity="0.25">
+      <!-- 简化的神经网络/芯片图案 -->
+      <circle cx="0" cy="-18" r="4" fill="#00d4ff"/>
+      <circle cx="-20" cy="18" r="4" fill="#00d4ff"/>
+      <circle cx="20" cy="18" r="4" fill="#00d4ff"/>
+      <circle cx="-12" cy="-6" r="3" fill="#a855f7"/>
+      <circle cx="12" cy="-6" r="3" fill="#a855f7"/>
+      <circle cx="0" cy="12" r="3.5" fill="#a855f7"/>
+      <line x1="0" y1="-14" x2="-12" y2="-3" stroke="#00d4ff" stroke-width="0.8"/>
+      <line x1="0" y1="-14" x2="12" y2="-3" stroke="#00d4ff" stroke-width="0.8"/>
+      <line x1="-16" y1="15" x2="0" y2="9" stroke="#00d4ff" stroke-width="0.8"/>
+      <line x1="16" y1="15" x2="0" y2="9" stroke="#00d4ff" stroke-width="0.8"/>
+      <line x1="-12" y1="-3" x2="-16" y2="15" stroke="#a855f7" stroke-width="0.6"/>
+      <line x1="12" y1="-3" x2="16" y2="15" stroke="#a855f7" stroke-width="0.6"/>
+      <line x1="-12" y1="-3" x2="12" y2="-3" stroke="#a855f7" stroke-width="0.6"/>
+      <line x1="0" y1="9" x2="0" y2="15" stroke="#a855f7" stroke-width="0.6"/>
+    </g>
+
+    <!-- 芯片引脚（上下边缘的短线） -->
+    <!-- 上边缘 -->
+    <g opacity="0.4" stroke="#00d4ff" stroke-width="1.5">
+      <line x1="540" y1="245" x2="540" y2="260"/>
+      <line x1="560" y1="235" x2="560" y2="252"/>
+      <line x1="580" y1="225" x2="580" y2="245"/>
+      <line x1="600" y1="220" x2="600" y2="240"/>
+      <line x1="620" y1="225" x2="620" y2="245"/>
+      <line x1="640" y1="235" x2="640" y2="252"/>
+      <line x1="660" y1="245" x2="660" y2="260"/>
+    </g>
+    <!-- 下边缘 -->
+    <g opacity="0.4" stroke="#a855f7" stroke-width="1.5">
+      <line x1="540" y1="440" x2="540" y2="425"/>
+      <line x1="560" y1="450" x2="560" y2="433"/>
+      <line x1="580" y1="458" x2="580" y2="440"/>
+      <line x1="600" y1="462" x2="600" y2="445"/>
+      <line x1="620" y1="458" x2="620" y2="440"/>
+      <line x1="640" y1="450" x2="640" y2="433"/>
+      <line x1="660" y1="440" x2="660" y2="425"/>
+    </g>
+    <!-- 左边缘 -->
+    <g opacity="0.35" stroke="#00d4ff" stroke-width="1.2">
+      <line x1="460" y1="300" x2="478" y2="300"/>
+      <line x1="462" y1="320" x2="478" y2="320"/>
+      <line x1="462" y1="340" x2="478" y2="340"/>
+      <line x1="462" y1="360" x2="478" y2="360"/>
+      <line x1="460" y1="380" x2="478" y2="380"/>
+    </g>
+    <!-- 右边缘 -->
+    <g opacity="0.35" stroke="#a855f7" stroke-width="1.2">
+      <line x1="738" y1="300" x2="722" y2="300"/>
+      <line x1="736" y1="320" x2="722" y2="320"/>
+      <line x1="736" y1="340" x2="722" y2="340"/>
+      <line x1="736" y1="360" x2="722" y2="360"/>
+      <line x1="738" y1="380" x2="722" y2="380"/>
+    </g>
+  </g>
+
+  <!-- ==================== 芯片外围装饰节点 ==================== -->
+  <g filter="url(#glow)" opacity="0.7">
+    <!-- 六边形顶点外围节点 -->
+    <circle cx="600" cy="188" r="3" fill="#00d4ff"/>
+    <circle cx="775" cy="280" r="3" fill="#a855f7"/>
+    <circle cx="775" cy="390" r="3" fill="#00d4ff"/>
+    <circle cx="600" cy="488" r="3" fill="#a855f7"/>
+    <circle cx="425" cy="390" r="3" fill="#00d4ff"/>
+    <circle cx="425" cy="280" r="3" fill="#a855f7"/>
+  </g>
+
+  <!-- ==================== 数据流粒子装饰 ==================== -->
+
+  <!-- 左侧数据流粒子 -->
+  <g opacity="0.45">
+    <circle cx="250" cy="230" r="1.5" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="380" r="1.5" fill="#a855f7">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="450" r="1.5" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.1;0.4;0.1" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="150" r="1.5" fill="#a855f7">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- 右侧数据流粒子 -->
+  <g opacity="0.45">
+    <circle cx="950" cy="230" r="1.5" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="380" r="1.5" fill="#a855f7">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="450" r="1.5" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.1;0.4;0.1" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="150" r="1.5" fill="#a855f7">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ==================== 标题文字 ==================== -->
+
+  <!-- 主标题背景光晕 -->
+  <ellipse cx="600" cy="108" rx="300" ry="18" fill="#6366f1" opacity="0.08"/>
+
+  <!-- 主标题 -->
+  <text x="600" y="120" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Hiragino Sans GB',sans-serif" font-size="56" font-weight="bold" fill="url(#titleGradient)" letter-spacing="12">AI 应用研发</text>
+
+  <!-- 副标题 -->
+  <text x="600" y="165" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Hiragino Sans GB',sans-serif" font-size="22" fill="#9ca3af" letter-spacing="4">从会调用模型到交付可靠的 AI 系统</text>
+
+  <!-- 装饰性标题下划线 -->
+  <line x1="460" y1="182" x2="740" y2="182" stroke="url(#chipStroke)" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="460" cy="182" r="2.5" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="740" cy="182" r="2.5" fill="#a855f7" opacity="0.6"/>
+
+  <!-- ==================== 底部信息 ==================== -->
+
+  <line x1="400" y1="578" x2="800" y2="578" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="600" y="606" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Hiragino Sans GB',sans-serif" font-size="16" fill="#6b7280" letter-spacing="6">CS Job Guide · 计算机求职指南</text>
+</svg>

@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38ef7d;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 路径渐变 -->
+    <linearGradient id="pathGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.35" />
+    </linearGradient>
+
+    <!-- 旗帜渐变 -->
+    <linearGradient id="flagGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0f5e0;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 光晕 -->
+    <radialGradient id="glow1" cx="30%" cy="35%" r="60%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+
+    <radialGradient id="glow2" cx="75%" cy="55%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- 箭头标记 -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="white" opacity="0.4"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- 光晕装饰 -->
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- 顶部装饰弧线 -->
+  <path d="M0,0 Q300,120 600,80 Q900,40 1200,100 L1200,0 Z" fill="white" opacity="0.04"/>
+  <path d="M0,0 Q350,200 700,140 Q1050,80 1200,160 L1200,0 Z" fill="white" opacity="0.03"/>
+
+  <!-- 底部装饰弧线 -->
+  <path d="M0,630 Q400,550 800,580 Q1000,560 1200,590 L1200,630 Z" fill="white" opacity="0.05"/>
+
+  <!-- 背景几何装饰：散落的圆点 -->
+  <circle cx="80" cy="180" r="3" fill="white" opacity="0.15"/>
+  <circle cx="150" cy="500" r="2" fill="white" opacity="0.12"/>
+  <circle cx="1050" cy="150" r="3" fill="white" opacity="0.18"/>
+  <circle cx="1120" cy="420" r="2.5" fill="white" opacity="0.14"/>
+  <circle cx="950" cy="530" r="2" fill="white" opacity="0.1"/>
+  <circle cx="200" cy="280" r="1.5" fill="white" opacity="0.2"/>
+  <circle cx="60" cy="420" r="2" fill="white" opacity="0.13"/>
+  <circle cx="1150" cy="250" r="1.8" fill="white" opacity="0.16"/>
+  <circle cx="400" cy="550" r="2.5" fill="white" opacity="0.08"/>
+
+  <!-- 背景星形装饰 -->
+  <polygon points="1020,130 1022,124 1024,130 1030,130 1025,134 1027,140 1022,136 1017,140 1019,134 1014,130" fill="white" opacity="0.2"/>
+  <polygon points="180,160 181.5,156 183,160 187,160 183.5,163 185,167 181.5,164 178,167 179.5,163 176,160" fill="white" opacity="0.16"/>
+
+  <!-- ===== 核心：上升路径 ===== -->
+  <!-- 渐变上升曲线（主路径） -->
+  <path d="M 120,530
+           C 180,440 250,380 340,360
+           C 430,340 500,310 560,280
+           C 640,240 700,210 760,190
+           C 820,170 880,160 950,140
+           C 1000,125 1050,115 1120,105"
+        fill="none" stroke="white" stroke-opacity="0.25" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 路径内层（更亮） -->
+  <path d="M 120,530
+           C 180,440 250,380 340,360
+           C 430,340 500,310 560,280
+           C 640,240 700,210 760,190
+           C 820,170 880,160 950,140
+           C 1000,125 1050,115 1120,105"
+        fill="none" stroke="white" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 路径虚线装饰（动感轨道感） -->
+  <path d="M 120,530
+           C 180,440 250,380 340,360
+           C 430,340 500,310 560,280
+           C 640,240 700,210 760,190
+           C 820,170 880,160 950,140
+           C 1000,125 1050,115 1120,105"
+        fill="none" stroke="white" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="8,16" stroke-linecap="round"/>
+
+  <!-- ===== 里程碑节点和旗帜 ===== -->
+
+  <!-- 节点1：起点 - 校招 offer -->
+  <g transform="translate(130, 525)">
+    <!-- 竖杆 -->
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="white" stroke-opacity="0.8" stroke-width="2.5"/>
+    <!-- 旗帜 -->
+    <polygon points="0,-40 32,-33 0,-26" fill="white" opacity="0.9"/>
+    <!-- 节点圆 -->
+    <circle cx="0" cy="0" r="7" fill="white" opacity="0.9"/>
+    <circle cx="0" cy="0" r="3.5" fill="#11998e"/>
+    <!-- 文字 -->
+    <text x="-35" y="22" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="12" fill="white" opacity="0.75" text-anchor="middle">拿到 Offer</text>
+  </g>
+
+  <!-- 节点2 -->
+  <g transform="translate(310, 370)">
+    <line x1="0" y1="0" x2="0" y2="-36" stroke="white" stroke-opacity="0.7" stroke-width="2"/>
+    <polygon points="0,-36 28,-30 0,-23" fill="white" opacity="0.8"/>
+    <circle cx="0" cy="0" r="5.5" fill="white" opacity="0.8"/>
+    <circle cx="0" cy="0" r="2.8" fill="#11998e"/>
+    <text x="-30" y="18" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="11" fill="white" opacity="0.7" text-anchor="middle">融入团队</text>
+  </g>
+
+  <!-- 节点3 -->
+  <g transform="translate(495, 305)">
+    <line x1="0" y1="0" x2="0" y2="-38" stroke="white" stroke-opacity="0.75" stroke-width="2.2"/>
+    <polygon points="0,-38 30,-31 0,-24" fill="white" opacity="0.85"/>
+    <circle cx="0" cy="0" r="6" fill="white" opacity="0.85"/>
+    <circle cx="0" cy="0" r="3" fill="#11998e"/>
+    <text x="-30" y="18" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="11" fill="white" opacity="0.7" text-anchor="middle">技术成长</text>
+  </g>
+
+  <!-- 节点4 -->
+  <g transform="translate(680, 220)">
+    <line x1="0" y1="0" x2="0" y2="-38" stroke="white" stroke-opacity="0.8" stroke-width="2.5"/>
+    <polygon points="0,-38 32,-31 0,-24" fill="white" opacity="0.9"/>
+    <circle cx="0" cy="0" r="6.5" fill="white" opacity="0.9"/>
+    <circle cx="0" cy="0" r="3.3" fill="#11998e"/>
+    <text x="-30" y="18" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="11" fill="white" opacity="0.75" text-anchor="middle">独当一面</text>
+  </g>
+
+  <!-- 节点5 -->
+  <g transform="translate(860, 165)">
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="white" stroke-opacity="0.85" stroke-width="2.5"/>
+    <polygon points="0,-40 34,-33 0,-26" fill="white" opacity="0.95"/>
+    <circle cx="0" cy="0" r="7" fill="white" opacity="0.95"/>
+    <circle cx="0" cy="0" r="3.5" fill="#11998e"/>
+    <text x="-30" y="20" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="12" fill="white" opacity="0.8" text-anchor="middle">晋升发展</text>
+  </g>
+
+  <!-- 节点6：终点 -->
+  <g transform="translate(1050, 120)">
+    <line x1="0" y1="0" x2="0" y2="-44" stroke="white" stroke-opacity="0.9" stroke-width="3"/>
+    <polygon points="0,-44 36,-37 0,-29" fill="white" opacity="0.95"/>
+    <circle cx="0" cy="0" r="8" fill="white" opacity="0.95"/>
+    <circle cx="0" cy="0" r="4" fill="#11998e"/>
+    <text x="-35" y="24" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="12" fill="white" opacity="0.85" text-anchor="middle">职业巅峰</text>
+    <!-- 终点特殊标记：光环 -->
+    <circle cx="0" cy="0" r="14" fill="none" stroke="white" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- 上升箭头（方向感） -->
+  <g transform="translate(1125, 100)" opacity="0.5">
+    <path d="M-8,8 L0,-2 L8,8" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ===== 文字区域 ===== -->
+
+  <!-- 标题 -->
+  <text x="600" y="210"
+        font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif"
+        font-size="76" font-weight="bold" fill="white"
+        text-anchor="middle" letter-spacing="12">
+    职业发展
+  </text>
+
+  <!-- 副标题 -->
+  <text x="600" y="265"
+        font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif"
+        font-size="24" fill="white" opacity="0.82"
+        text-anchor="middle" letter-spacing="3">
+    拿到 offer 只是起点，更长远的职业道路值得提前思考
+  </text>
+
+  <!-- 标题下方装饰线 -->
+  <line x1="480" y1="288" x2="720" y2="288" stroke="white" stroke-opacity="0.4" stroke-width="1.5"/>
+  <circle cx="600" cy="288" r="3.5" fill="white" opacity="0.6"/>
+
+  <!-- 底部文字 -->
+  <text x="600" y="590"
+        font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif"
+        font-size="16" fill="white" opacity="0.55"
+        text-anchor="middle" letter-spacing="4">
+    CS Job Guide · 计算机求职指南
+  </text>
+
+  <!-- 底部装饰线 -->
+  <line x1="380" y1="605" x2="820" y2="605" stroke="white" stroke-opacity="0.2" stroke-width="1"/>
+</svg>

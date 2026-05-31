@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d0a6e"/>
+      <stop offset="30%" stop-color="#4a00e0"/>
+      <stop offset="70%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#8e2de2"/>
+    </linearGradient>
+
+    <!-- 雷达环渐变 -->
+    <radialGradient id="radarGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(142,45,226,0.15)"/>
+      <stop offset="60%" stop-color="rgba(142,45,226,0.05)"/>
+      <stop offset="100%" stop-color="rgba(142,45,226,0)"/>
+    </radialGradient>
+
+    <!-- 标签渐变 -->
+    <linearGradient id="tagGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
+    </linearGradient>
+
+    <!-- 发光效果 -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 扫描线渐变 -->
+    <linearGradient id="scanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(0,255,200,0)"/>
+      <stop offset="20%" stop-color="rgba(0,255,200,0.6)"/>
+      <stop offset="50%" stop-color="rgba(0,255,200,0.9)"/>
+      <stop offset="80%" stop-color="rgba(0,255,200,0.6)"/>
+      <stop offset="100%" stop-color="rgba(0,255,200,0)"/>
+    </linearGradient>
+
+    <!-- 网格图案 -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="0.5" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+
+    <!-- 点状图案 -->
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1" fill="rgba(255,255,255,0.06)"/>
+    </pattern>
+
+    <!-- 标签描边渐变 -->
+    <linearGradient id="tagBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(142,45,226,0.6)"/>
+      <stop offset="100%" stop-color="rgba(0,255,200,0.4)"/>
+    </linearGradient>
+
+    <linearGradient id="tagBorder2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0,200,255,0.5)"/>
+      <stop offset="100%" stop-color="rgba(142,45,226,0.5)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- 背景纹理 -->
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+
+  <!-- 背景装饰光晕 -->
+  <ellipse cx="200" cy="150" rx="250" ry="150" fill="rgba(142,45,226,0.15)" filter="url(#softGlow)"/>
+  <ellipse cx="1000" cy="480" rx="300" ry="180" fill="rgba(74,0,224,0.12)" filter="url(#softGlow)"/>
+  <ellipse cx="600" cy="350" rx="200" ry="120" fill="rgba(0,200,255,0.06)" filter="url(#softGlow)"/>
+
+  <!-- 背景装饰线条 -->
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
+  <line x1="0" y1="430" x2="1200" y2="430" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,255,255,0.02)" stroke-width="1"/>
+
+  <!-- ==================== 中心雷达/指南针 ==================== -->
+  <g transform="translate(600, 310)">
+    <!-- 雷达暗色圆形底部 -->
+    <circle cx="0" cy="0" r="195" fill="rgba(20,5,50,0.35)"/>
+    <circle cx="0" cy="0" r="195" fill="none" stroke="rgba(142,45,226,0.3)" stroke-width="1"/>
+
+    <!-- 雷达同心圆 -->
+    <circle cx="0" cy="0" r="170" fill="none" stroke="rgba(142,45,226,0.25)" stroke-width="1" stroke-dasharray="4 8"/>
+    <circle cx="0" cy="0" r="140" fill="none" stroke="rgba(142,45,226,0.2)" stroke-width="0.8" stroke-dasharray="3 10"/>
+    <circle cx="0" cy="0" r="110" fill="none" stroke="rgba(142,45,226,0.3)" stroke-width="1" stroke-dasharray="4 6"/>
+    <circle cx="0" cy="0" r="80" fill="none" stroke="rgba(142,45,226,0.2)" stroke-width="0.8" stroke-dasharray="3 8"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="rgba(142,45,226,0.35)" stroke-width="1" stroke-dasharray="4 6"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="rgba(142,45,226,0.15)" stroke-width="0.5"/>
+
+    <!-- 雷达十字线 -->
+    <line x1="-195" y1="0" x2="195" y2="0" stroke="rgba(142,45,226,0.25)" stroke-width="0.8"/>
+    <line x1="0" y1="-195" x2="0" y2="195" stroke="rgba(142,45,226,0.25)" stroke-width="0.8"/>
+    <line x1="-140" y1="-140" x2="140" y2="140" stroke="rgba(142,45,226,0.12)" stroke-width="0.5"/>
+    <line x1="140" y1="-140" x2="-140" y2="140" stroke="rgba(142,45,226,0.12)" stroke-width="0.5"/>
+
+    <!-- 雷达扫描线（主要方向） -->
+    <line x1="0" y1="0" x2="125" y2="-125" stroke="rgba(0,255,200,0.35)" stroke-width="1.5" filter="url(#glow)"/>
+    <line x1="0" y1="0" x2="-130" y2="-80" stroke="rgba(0,255,200,0.2)" stroke-width="1"/>
+    <line x1="0" y1="0" x2="-80" y2="110" stroke="rgba(0,255,200,0.2)" stroke-width="1"/>
+    <line x1="0" y1="0" x2="140" y2="60" stroke="rgba(0,255,200,0.2)" stroke-width="1"/>
+
+    <!-- 雷达扫描扇形 -->
+    <path d="M0,0 L0,-170 A170,170 0 0,1 120,-120 Z" fill="rgba(0,255,200,0.06)"/>
+
+    <!-- 雷达上的数据点 -->
+    <circle cx="70" cy="-90" r="3" fill="#00ffc8" filter="url(#glow)" opacity="0.9"/>
+    <circle cx="-95" cy="-55" r="2.5" fill="#00ffc8" filter="url(#glow)" opacity="0.7"/>
+    <circle cx="50" cy="80" r="2" fill="#00ffc8" filter="url(#glow)" opacity="0.6"/>
+    <circle cx="-60" cy="70" r="2.5" fill="#00ffc8" filter="url(#glow)" opacity="0.7"/>
+    <circle cx="110" cy="30" r="2" fill="#00ffc8" filter="url(#glow)" opacity="0.5"/>
+    <circle cx="-40" cy="-110" r="2" fill="#00ffc8" filter="url(#glow)" opacity="0.6"/>
+    <circle cx="-120" cy="20" r="1.5" fill="#00ffc8" filter="url(#glow)" opacity="0.5"/>
+    <circle cx="30" cy="-140" r="2" fill="#00ffc8" filter="url(#glow)" opacity="0.65"/>
+
+    <!-- 指南针外环刻度 -->
+    <g stroke="rgba(142,45,226,0.3)" stroke-width="0.6">
+      <!-- N -->
+      <line x1="0" y1="-185" x2="0" y2="-195"/>
+      <!-- NE -->
+      <line x1="45" y1="-180" x2="48" y2="-189"/>
+      <!-- E -->
+      <line x1="185" y1="0" x2="195" y2="0"/>
+      <!-- SE -->
+      <line x1="45" y1="180" x2="48" y2="189"/>
+      <!-- S -->
+      <line x1="0" y1="185" x2="0" y2="195"/>
+      <!-- SW -->
+      <line x1="-45" y1="180" x2="-48" y2="189"/>
+      <!-- W -->
+      <line x1="-185" y1="0" x2="-195" y2="0"/>
+      <!-- NW -->
+      <line x1="-45" y1="-180" x2="-48" y2="-189"/>
+    </g>
+
+    <!-- 指南针方向文字 -->
+    <text x="0" y="-198" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="11" fill="rgba(0,255,200,0.5)">N</text>
+    <text x="202" y="4" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(0,255,200,0.5)">E</text>
+    <text x="0" y="210" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(0,255,200,0.5)">S</text>
+    <text x="-202" y="4" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(0,255,200,0.5)">W</text>
+
+    <!-- 中心核心 -->
+    <circle cx="0" cy="0" r="6" fill="#00ffc8" filter="url(#glow)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="2" fill="#fff"/>
+  </g>
+
+  <!-- ==================== 浮动标签 ==================== -->
+  <!-- 标签样式：圆角矩形背景 + 边框 + 文字 -->
+
+  <!-- Agent -->
+  <g transform="translate(180, 135)" filter="url(#glow)">
+    <rect x="-50" y="-18" width="100" height="36" rx="18" fill="url(#tagGrad1)" stroke="url(#tagBorder)" stroke-width="1"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="16" font-weight="600" fill="#a0e0ff">🤖 Agent</text>
+  </g>
+
+  <!-- RAG -->
+  <g transform="translate(1020, 160)">
+    <rect x="-45" y="-18" width="90" height="36" rx="18" fill="url(#tagGrad1)" stroke="url(#tagBorder2)" stroke-width="1"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="16" font-weight="600" fill="#c0b0ff">📚 RAG</text>
+  </g>
+
+  <!-- MCP -->
+  <g transform="translate(200, 370)">
+    <rect x="-45" y="-18" width="90" height="36" rx="18" fill="url(#tagGrad1)" stroke="url(#tagBorder)" stroke-width="1"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="16" font-weight="600" fill="#a0e0ff">🔌 MCP</text>
+  </g>
+
+  <!-- 大模型 -->
+  <g transform="translate(980, 380)">
+    <rect x="-55" y="-18" width="110" height="36" rx="18" fill="url(#tagGrad1)" stroke="url(#tagBorder2)" stroke-width="1"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="16" font-weight="600" fill="#c0b0ff">🧠 大模型</text>
+  </g>
+
+  <!-- Prompt -->
+  <g transform="translate(300, 250)">
+    <rect x="-55" y="-16" width="110" height="32" rx="16" fill="url(#tagGrad1)" stroke="url(#tagBorder2)" stroke-width="1"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="14" font-weight="500" fill="#c0b0ff">✍️ Prompt</text>
+  </g>
+
+  <!-- AI 应用 -->
+  <g transform="translate(880, 280)">
+    <rect x="-60" y="-16" width="120" height="32" rx="16" fill="url(#tagGrad1)" stroke="url(#tagBorder)" stroke-width="1"/>
+    <text x="0" y="7" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="14" font-weight="500" fill="#a0e0ff">🚀 AI 应用</text>
+  </g>
+
+  <!-- LLM -->
+  <g transform="translate(370, 490)">
+    <rect x="-40" y="-15" width="80" height="30" rx="15" fill="url(#tagGrad1)" stroke="url(#tagBorder)" stroke-width="1"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="13" font-weight="500" fill="#a0e0ff">LLM</text>
+  </g>
+
+  <!-- 多模态 -->
+  <g transform="translate(820, 490)">
+    <rect x="-50" y="-15" width="100" height="30" rx="15" fill="url(#tagGrad1)" stroke="url(#tagBorder2)" stroke-width="1"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="13" font-weight="500" fill="#c0b0ff">🎯 多模态</text>
+  </g>
+
+  <!-- Python -->
+  <g transform="translate(520, 140)">
+    <rect x="-45" y="-15" width="90" height="30" rx="15" fill="url(#tagGrad1)" stroke="url(#tagBorder)" stroke-width="1"/>
+    <text x="0" y="6" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#a0e0ff">🐍 Python</text>
+  </g>
+
+  <!-- LangChain -->
+  <g transform="translate(680, 540)">
+    <rect x="-58" y="-15" width="116" height="30" rx="15" fill="url(#tagGrad1)" stroke="url(#tagBorder2)" stroke-width="1"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="13" font-weight="500" fill="#c0b0ff">🔗 LangChain</text>
+  </g>
+
+  <!-- 连接线（从标签指向中心雷达） -->
+  <g opacity="0.08">
+    <line x1="230" y1="153" x2="420" y2="250" stroke="#00ffc8" stroke-width="1"/>
+    <line x1="975" y1="178" x2="780" y2="252" stroke="#00ffc8" stroke-width="1"/>
+    <line x1="245" y1="388" x2="430" y2="360" stroke="#00ffc8" stroke-width="1"/>
+    <line x1="925" y1="398" x2="750" y2="365" stroke="#00ffc8" stroke-width="1"/>
+  </g>
+
+  <!-- ==================== 标题文字 ==================== -->
+  <!-- 主标题 -->
+  <g filter="url(#softGlow)">
+    <text x="600" y="75" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Source Han Sans CN',sans-serif" font-size="62" font-weight="800" fill="#ffffff" letter-spacing="10">
+      AI 求职趋势
+    </text>
+  </g>
+
+  <!-- 标题底部装饰线 -->
+  <rect x="460" y="95" width="280" height="2.5" rx="1.25" fill="#00ffc8" opacity="0.6" filter="url(#glow)"/>
+
+  <!-- 副标题 -->
+  <text x="600" y="570" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.55)" letter-spacing="2">
+    2025-2026 AI 岗位全景——不只算法岗，AI 应用研发正在爆发
+  </text>
+
+  <!-- ==================== 底部信息 ==================== -->
+  <!-- 底部装饰线 -->
+  <line x1="350" y1="590" x2="850" y2="590" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+
+  <!-- 底部小字 -->
+  <text x="600" y="612" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="13" font-weight="300" fill="rgba(255,255,255,0.35)" letter-spacing="2">
+    CS Job Guide · 计算机求职指南
+  </text>
+
+  <!-- 角落装饰 -->
+  <g opacity="0.1">
+    <!-- 左上角 -->
+    <line x1="30" y1="0" x2="30" y2="30" stroke="#00ffc8" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="30" y2="30" stroke="#00ffc8" stroke-width="1.5"/>
+    <!-- 右上角 -->
+    <line x1="1170" y1="0" x2="1170" y2="30" stroke="#00ffc8" stroke-width="1.5"/>
+    <line x1="1170" y1="30" x2="1200" y2="30" stroke="#00ffc8" stroke-width="1.5"/>
+    <!-- 左下角 -->
+    <line x1="30" y1="600" x2="30" y2="630" stroke="#00ffc8" stroke-width="1.5"/>
+    <line x1="0" y1="600" x2="30" y2="600" stroke="#00ffc8" stroke-width="1.5"/>
+    <!-- 右下角 -->
+    <line x1="1170" y1="600" x2="1170" y2="630" stroke="#00ffc8" stroke-width="1.5"/>
+    <line x1="1170" y1="600" x2="1200" y2="600" stroke="#00ffc8" stroke-width="1.5"/>
+  </g>
+</svg>

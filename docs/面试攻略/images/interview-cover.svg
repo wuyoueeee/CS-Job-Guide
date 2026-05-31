@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <!-- 主背景渐变：暖橙到深红 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f12711;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#e8451e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f5af19;stop-opacity:1"/>
+    </linearGradient>
+
+    <!-- 气泡渐变 -->
+    <linearGradient id="bubbleLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#fff8f0;stop-opacity:0.9"/>
+    </linearGradient>
+
+    <linearGradient id="bubbleRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.85"/>
+      <stop offset="100%" style="stop-color:#fff3e6;stop-opacity:0.8"/>
+    </linearGradient>
+
+    <!-- 对勾渐变 -->
+    <linearGradient id="checkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f12711"/>
+      <stop offset="100%" style="stop-color:#f5af19"/>
+    </linearGradient>
+
+    <!-- 星形渐变 -->
+    <linearGradient id="starGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5af19"/>
+      <stop offset="100%" style="stop-color:#fff4d0"/>
+    </linearGradient>
+
+    <!-- 文字微光 -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.25" result="shadow"/>
+      <feComposite in="shadow" in2="SourceGraphic" operator="over"/>
+    </filter>
+
+    <!-- 柔和阴影 -->
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#a01008" flood-opacity="0.18"/>
+    </filter>
+
+    <!-- 气泡阴影 -->
+    <filter id="bubbleShadow" x="-8%" y="-8%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#8a0500" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- 装饰性背景圆环 -->
+  <circle cx="1050" cy="100" r="180" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+  <circle cx="1050" cy="100" r="140" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1.5"/>
+  <circle cx="1050" cy="100" r="220" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+  <circle cx="150" cy="520" r="100" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+  <circle cx="150" cy="520" r="60" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1.5"/>
+  <circle cx="150" cy="520" r="140" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- 装饰性点阵 -->
+  <circle cx="80" cy="80" r="3" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="100" cy="80" r="3" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="120" cy="80" r="3" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="80" cy="100" r="3" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="100" cy="100" r="3" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="120" cy="100" r="3" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="80" cy="120" r="3" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="100" cy="120" r="3" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="120" cy="120" r="3" fill="#ffffff" fill-opacity="0.12"/>
+
+  <circle cx="1080" cy="580" r="3" fill="#ffffff" fill-opacity="0.10"/>
+  <circle cx="1100" cy="580" r="3" fill="#ffffff" fill-opacity="0.10"/>
+  <circle cx="1120" cy="580" r="3" fill="#ffffff" fill-opacity="0.10"/>
+  <circle cx="1080" cy="600" r="3" fill="#ffffff" fill-opacity="0.10"/>
+  <circle cx="1100" cy="600" r="3" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="1120" cy="600" r="3" fill="#ffffff" fill-opacity="0.10"/>
+
+  <!-- ===== 聊天对话框组合 ===== -->
+  <g filter="url(#bubbleShadow)">
+
+    <!-- 左侧大气泡（面试官） -->
+    <g>
+      <rect x="150" y="180" width="380" height="130" rx="28" fill="url(#bubbleLeft)"/>
+      <!-- 气泡尾巴 -->
+      <path d="M 180 310 L 140 340 L 195 310 Z" fill="#ffffff" fill-opacity="0.95"/>
+
+      <!-- 气泡内的表示对话内容的横线 -->
+      <rect x="195" y="218" width="190" height="10" rx="5" fill="#e0d5cc"/>
+      <rect x="195" y="242" width="260" height="10" rx="5" fill="#e8ddd5"/>
+      <rect x="195" y="266" width="160" height="10" rx="5" fill="#e8ddd5"/>
+
+      <!-- 对话标记：问号表示提问 -->
+      <text x="470" y="252" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Source Han Sans CN',sans-serif" font-size="36" font-weight="bold" fill="#f12711" fill-opacity="0.3" text-anchor="middle">?</text>
+    </g>
+
+    <!-- 右侧小气泡（求职者） -->
+    <g>
+      <rect x="660" y="260" width="330" height="110" rx="28" fill="url(#bubbleRight)"/>
+      <!-- 气泡尾巴 -->
+      <path d="M 960 370 L 1000 395 L 945 370 Z" fill="#ffffff" fill-opacity="0.8"/>
+
+      <!-- 气泡内的表示对话内容的横线 -->
+      <rect x="710" y="295" width="170" height="10" rx="5" fill="#e0d5cc"/>
+      <rect x="710" y="319" width="230" height="10" rx="5" fill="#e8ddd5"/>
+
+      <!-- 对勾图标 -->
+      <g transform="translate(860, 347) scale(0.7)">
+        <circle cx="25" cy="25" r="25" fill="url(#checkGradient)"/>
+        <polyline points="12,25 21,34 38,17" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+    <!-- 第三个装饰性小气泡 -->
+    <rect x="440" y="385" width="200" height="55" rx="16" fill="#ffffff" fill-opacity="0.7"/>
+    <rect x="465" y="405" width="110" height="6" rx="3" fill="#d0c5ba"/>
+    <rect x="465" y="420" width="80" height="6" rx="3" fill="#d8cec4"/>
+
+  </g>
+
+  <!-- 星形装饰 -->
+  <g transform="translate(540, 195)" filter="url(#softShadow)">
+    <polygon points="0,-28 5.6,-8.9 26.6,-8.9 9.1,3.0 15.7,22.9 0,10.9 -15.7,22.9 -9.1,3.0 -26.6,-8.9 -5.6,-8.9" fill="url(#starGradient)" opacity="0.9"/>
+  </g>
+
+  <!-- 小星形 -->
+  <g transform="translate(630, 175) scale(0.5)" opacity="0.6">
+    <polygon points="0,-28 5.6,-8.9 26.6,-8.9 9.1,3.0 15.7,22.9 0,10.9 -15.7,22.9 -9.1,3.0 -26.6,-8.9 -5.6,-8.9" fill="#fff4d0"/>
+  </g>
+
+  <g transform="translate(350, 455) scale(0.45)" opacity="0.5">
+    <polygon points="0,-28 5.6,-8.9 26.6,-8.9 9.1,3.0 15.7,22.9 0,10.9 -15.7,22.9 -9.1,3.0 -26.6,-8.9 -5.6,-8.9" fill="#fff4d0"/>
+  </g>
+
+  <!-- 标题文字 -->
+  <g filter="url(#textGlow)">
+    <text x="600" y="115" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Source Han Sans CN','WenQuanYi Micro Hei',sans-serif" font-size="76" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="12">
+      面试攻略
+    </text>
+  </g>
+
+  <!-- 副标题 -->
+  <text x="600" y="492" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Source Han Sans CN',sans-serif" font-size="22" fill="#ffffff" fill-opacity="0.85" text-anchor="middle" letter-spacing="3">
+    从面试官视角理解面试，用复盘让每一次面试都有积累
+  </text>
+
+  <!-- 底部装饰线 -->
+  <line x1="380" y1="510" x2="820" y2="510" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- 底部小字 -->
+  <text x="600" y="550" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Source Han Sans CN',sans-serif" font-size="15" fill="#ffffff" fill-opacity="0.55" text-anchor="middle" letter-spacing="2">
+    CS Job Guide · 计算机求职指南
+  </text>
+
+  <!-- 底部装饰点 -->
+  <circle cx="596" cy="580" r="2.5" fill="#ffffff" fill-opacity="0.3"/>
+  <circle cx="604" cy="580" r="2.5" fill="#ffffff" fill-opacity="0.3"/>
+</svg>

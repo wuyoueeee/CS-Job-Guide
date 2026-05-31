@@ -1,6 +1,10 @@
+<p align=”center”>
+  <img src=”./images/ai-rd-cover.svg” alt=”AI 应用研发” width=”100%” />
+</p>
+
 # AI 应用研发工程师求职专题
 
-> 从“会调用模型”走向“能交付一个可靠的 AI 系统”。
+> 从”会调用模型”走向”能交付一个可靠的 AI 系统”。
 
 这组文章根据阿里巴巴校园招聘岗位 [AI 应用研发工程师](https://campus-talent.alibaba.com/campus/position/199903220038?deptCodes=) 的职责与要求整理。岗位页面会随招聘批次调整，阅读时请以官网最新内容为准。
 

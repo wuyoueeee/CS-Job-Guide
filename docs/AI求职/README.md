@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./images/ai-job-cover.svg" alt="AI 求职趋势" width="100%" />
+</p>
+
 # AI 求职趋势与岗位分析
 
 > 2025-2026 年校招中，AI 岗位正在从"少数人的算法竞赛"变成"大多数人的就业选项"。
