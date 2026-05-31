@@ -56,7 +56,8 @@ flowchart LR
 | 专题 | 内容 | 推荐理由 |
 | --- | --- | --- |
 | **求职导航** | [计算机专业求职全流程](./docs/计算机求职指南.md) | 从选择方向、准备材料到签约入职 |
-| **后端主线** | [Java 后端校招学习路线](./docs/基础知识/Java后端校招学习路线.md) | 八周训练计划，串起基础知识和项目表达 |
+| **后端主线** | [Java 后端校招学习路线](./docs/基础知识/Java后端校招学习路线.md) | 八周训练计划，串起基础知识、工程排查和项目表达 |
+| **框架与工程** | [Spring 与 Spring Boot](./docs/基础知识/Spring与SpringBoot高频面试题.md) · [Linux 与 Git](./docs/基础知识/Linux与Git校招实用指南.md) | 从事务失效到服务排查，补齐校招实用基本功 |
 | **大模型使用专题** | [从高质量提问到个人知识库](./docs/大模型使用/README.md) | 10 篇图文实战文章，覆盖学习、简历、面试与编程 |
 
 > 部分栏目仍在持续补充中。欢迎 Star、分享和参与完善。
@@ -106,7 +107,8 @@ flowchart LR
 
 | 方向 | 内容 |
 | --- | --- |
-| Java 后端 | [校招学习路线](./docs/基础知识/Java后端校招学习路线.md) · [Java 基础与集合](./docs/基础知识/Java基础与集合高频面试题.md) · [JVM](./docs/基础知识/JVM高频面试题.md) · [Redis](./docs/基础知识/Redis高频面试题.md) |
+| Java 后端 | [校招学习路线](./docs/基础知识/Java后端校招学习路线.md) · [Java 基础与集合](./docs/基础知识/Java基础与集合高频面试题.md) · [JVM](./docs/基础知识/JVM高频面试题.md) · [Redis](./docs/基础知识/Redis高频面试题.md) · [Spring 与 Spring Boot](./docs/基础知识/Spring与SpringBoot高频面试题.md) |
+| 工程基本功 | [Linux 与 Git 校招实用指南](./docs/基础知识/Linux与Git校招实用指南.md) |
 | MySQL | [基础高频面试题](./docs/基础知识/MySQL基础高频面试题%20.md) · [进阶高频面试题](./docs/基础知识/MySQL进阶高频面试题.md) · [高级高频面试题](./docs/基础知识/MySQL高级高频面试题.md) |
 | Python | [上篇](./docs/基础知识/Python常见知识点和面试题总结上.md) · [中篇](./docs/基础知识/Python常见知识点和面试题总结中.md) · [下篇](./docs/基础知识/Python常见知识点和面试题总结下.md) |
 | 计算机网络 | [常见知识点和面试题总结](./docs/基础知识/计算机网络常见知识点和面试题总结上%20.md) |
