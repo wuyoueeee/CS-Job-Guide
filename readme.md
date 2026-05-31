@@ -1,32 +1,18 @@
-<!--
-  ╔══════════════════════════════════════════════════════════╗
-  ║              CS Job Guide · 计算机专业求职指南            ║
-  ║       选择方向 → 准备简历 → 复习基础 → 冲刺面试 → 完成签约   ║
-  ╚══════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
+
+<a href="https://github.com/wuyoueeee/CS-Job-Guide">
+  <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/cs%20job%20guide.png" width="96" alt="CS Job Guide" />
+</a>
 
 # CS Job Guide
 
 **计算机专业求职指南**　·　一份有温度的资料库
 
-选择方向 · 准备简历 · 复习基础 · 冲刺面试 · 完成签约
-
 <p>
-  <a href="https://space.bilibili.com/10406355"><img src="https://img.shields.io/badge/📺_B站-程序员无忧-fb7299?style=for-the-badge" alt="Bilibili" /></a>
-  <a href="https://github.com/wuyoueeee/CS-Job-Guide/stargazers"><img src="https://img.shields.io/github/stars/wuyoueeee/CS-Job-Guide?style=for-the-badge&color=yellow" alt="Stars" /></a>
-  <a href="https://github.com/wuyoueeee/CS-Job-Guide/network/members"><img src="https://img.shields.io/github/forks/wuyoueeee/CS-Job-Guide?style=for-the-badge&color=blue" alt="Forks" /></a>
-</p>
-
-<p>
-  <a href="#-从这里开始">🚀 快速开始</a>　
-  <a href="#-面试知识体系">📚 知识体系</a>　
-  <a href="#-面试攻略及真实面经">💬 面经</a>　
-  <a href="#-大模型使用专题">🤖 大模型</a>　
-  <a href="#-ai-应用研发求职">🔬 AI 研发</a>　
-  <a href="#-ai-求职趋势">📈 AI 求职</a>　
-  <a href="#-offer--签约">📝 签约</a>
+  <a href="https://github.com/wuyoueeee/CS-Job-Guide/stargazers"><img src="https://img.shields.io/github/stars/wuyoueeee/CS-Job-Guide?style=flat-square&color=yellow" /></a>
+  <a href="https://github.com/wuyoueeee/CS-Job-Guide/network/members"><img src="https://img.shields.io/github/forks/wuyoueeee/CS-Job-Guide?style=flat-square&color=blue" /></a>
+  <a href="https://space.bilibili.com/10406355"><img src="https://img.shields.io/badge/B站-程序员无忧-fb7299?style=flat-square" /></a>
+  <a href="https://github.com/wuyoueeee/CS-Job-Guide"><img src="https://img.shields.io/badge/工具-即刻简历-2ea44f?style=flat-square" /></a>
 </p>
 
 </div>
@@ -34,360 +20,127 @@
 <br>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./docs/images/cs-job-guide-hero.png">
-    <img src="./docs/images/cs-job-guide-hero.png" alt="CS Job Guide 求职路线主视觉" width="100%" />
-  </picture>
+  <img src="./docs/images/cs-job-guide-hero.png" alt="求职路线主视觉" width="100%" />
 </p>
 
-> 💡 **求职没有标准答案，但充分准备会让每一次选择更有底气。**
+> 💡 求职没有标准答案，但充分准备会让每一次选择更有底气。
 
 ---
 
-## 🚀 从这里开始
+## 🗺️ 从这里开始
 
-CS Job Guide 是一份面向计算机专业学生的求职资料库，适合正在准备**实习、春招、秋招和职业选择**的同学。这里不追求资料越多越好，更希望帮你在正确的阶段找到真正需要的内容。
+CS Job Guide 适合正在准备**实习、春招、秋招和职业选择**的计算机专业同学。不追求资料越多越好，只想帮你在正确的阶段找到真正需要的内容。
 
-<table align="center">
-  <tr align="center">
-    <td width="20%">
-      <h4>🔍<br>了解节奏</h4>
-      <sub>
-        <a href="./docs/计算机求职指南.md">求职全流程</a><br>
-        <a href="./docs/求职规划/校招时间线.md">校招时间线</a>
-      </sub>
-    </td>
-    <td width="20%">
-      <h4>📋<br>准备材料</h4>
-      <sub>
-        <a href="./docs/技能与知识要求.md">岗位地图</a><br>
-        <a href="#-简历制作">简历制作</a>
-      </sub>
-    </td>
-    <td width="20%">
-      <h4>📖<br>集中复习</h4>
-      <sub>
-        <a href="./docs/基础知识/Java后端校招学习路线.md">Java 后端路线</a><br>
-        <a href="./docs/基础知识/数据结构与算法刷题计划.md">算法刷题计划</a>
-      </sub>
-    </td>
-    <td width="20%">
-      <h4>🎯<br>面试冲刺</h4>
-      <sub>
-        <a href="#-面试攻略及真实面经">真实面经</a><br>
-        <a href="./docs/面试攻略/HR面试常见问题.md">HR 面试</a>
-      </sub>
-    </td>
-    <td width="20%">
-      <h4>✅<br>做出选择</h4>
-      <sub>
-        <a href="#-offer--签约">offer 与签约</a><br>
-        <a href="#-职业发展">职业发展</a>
-      </sub>
-    </td>
-  </tr>
-</table>
-
-### 🗺️ 一条可执行的求职路线
-
-```mermaid
-flowchart LR
-    A[🎯 了解校招节奏] --> B[📝 整理经历与简历]
-    B --> C[📚 复习基础知识]
-    C --> D[💡 梳理项目亮点]
-    D --> E[🎤 模拟面试与复盘]
-    E --> F[📮 持续投递]
-    F --> G[⚖️ 比较 offer]
-    G --> H[✍️ 完成签约]
-```
+<p align="center">
+  <a href="./docs/计算机求职指南.md"><strong>📖 求职全流程</strong></a>　·　
+  <a href="./docs/求职规划/校招时间线.md"><strong>📅 校招时间线</strong></a>　·　
+  <a href="./docs/技能与知识要求.md"><strong>🗺️ 岗位地图</strong></a>　·　
+  <a href="#-简历制作"><strong>📝 简历制作</strong></a>　·　
+  <a href="./docs/todo.md"><strong>📋 更新计划</strong></a>
+</p>
 
 ---
 
 ## 📋 最近更新
 
 <table>
-  <tr>
-    <td width="33%">
-      <strong>🧭 求职导航</strong><br>
-      <sub><a href="./docs/计算机求职指南.md">计算机专业求职全流程</a></sub><br>
-      <sub>从方向选择到签约入职的完整路线</sub>
-    </td>
-    <td width="33%">
-      <strong>🤖 AI 面试高频题</strong> 🆕<br>
-      <sub><a href="./docs/基础知识/大模型与AI面试高频题.md">大模型与 AI 面试高频题</a></sub><br>
-      <sub>Transformer、RAG、Agent、Prompt Engineering 等 7 大模块</sub>
-    </td>
-    <td width="34%">
-      <strong>📈 AI 求职趋势</strong> 🆕<br>
-      <sub><a href="./docs/AI求职/01-AI岗位全景与转型路径.md">AI 岗位全景与转型路径</a></sub><br>
-      <sub>六类 AI 岗位地图、三条转型路径、简历差异</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%">
-      <strong>🔧 框架与工程</strong><br>
-      <sub><a href="./docs/基础知识/Spring与SpringBoot高频面试题.md">Spring 与 Spring Boot</a> · <a href="./docs/基础知识/Linux与Git校招实用指南.md">Linux 与 Git</a></sub><br>
-      <sub>事务失效排查、Git 工作流等校招实用基本功</sub>
-    </td>
-    <td width="33%">
-      <strong>🔬 AI 应用研发</strong><br>
-      <sub><a href="./docs/AI应用研发/01-岗位能力地图与十二周路线.md">岗位能力地图与十二周路线</a> · <a href="./docs/AI应用研发/09-向量数据库选型与实战.md">向量数据库实战</a></sub><br>
-      <sub>对标阿里岗位，新增向量数据库、LangChain vs LlamaIndex</sub>
-    </td>
-    <td width="34%">
-      <strong>🤖 大模型使用专题</strong><br>
-      <sub><a href="./docs/大模型使用/README.md">从高质量提问到个人知识库</a> · <a href="./docs/大模型使用/11-用大模型做系统设计练习.md">系统设计练习</a></sub><br>
-      <sub>11 篇图文实战文章，新增 AI 辅助系统设计练习</sub>
-    </td>
-  </tr>
+<tr>
+<td width="50%">
+
+### 🤖 AI 面试高频题
+[大模型与 AI 面试高频题](./docs/基础知识/大模型与AI面试高频题.md) — Transformer、RAG、Agent、Prompt Engineering 等 7 大模块，36KB 硬核内容
+
+### 📈 AI 求职趋势
+[AI 岗位全景与转型路径](./docs/AI求职/01-AI岗位全景与转型路径.md) — 六类岗位地图、三条转型路径、简历差异与常见误区
+
+### 🌱 职业发展
+[第一份工作怎么选](./docs/职业发展/第一份工作怎么选.md)　·　[技术人成长路径](./docs/职业发展/技术人的职业成长路径.md)　·　[校招生第一年手册](./docs/职业发展/校招生第一年生存手册.md)　·　[一人公司方法论](./docs/职业发展/一人公司方法论.md)
+
+</td>
+<td width="50%">
+
+### 💬 面试攻略
+[面试官视角](./docs/面试攻略/面试官视角：技术面试的评估维度.md)　·　[复盘方法论](./docs/面试攻略/面试复盘方法论.md)　·　[算法面试指南](./docs/面试攻略/算法与代码面试准备指南.md)
+
+### 🔬 AI 应用研发
+[向量数据库实战](./docs/AI应用研发/09-向量数据库选型与实战.md)　·　[LangChain vs LlamaIndex](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md)
+
+### 🤖 大模型使用
+[系统设计练习](./docs/大模型使用/11-用大模型做系统设计练习.md) — 专题扩展至 11 篇
+
+</td>
+</tr>
 </table>
 
-> 部分栏目仍在持续补充中。欢迎 **Star** ⭐、分享和参与完善。
-
 ---
 
-## 📚 面试知识体系
+## 📚 知识体系
 
-先建立知识框架，再通过模拟问答检查薄弱点。复习的目标不是"看过"，而是**能够用自己的语言讲清楚**。
-
-### 🧠 学习方法
-
-| 内容                                                                               | 一句话说明                           |
-| ---------------------------------------------------------------------------------- | ------------------------------------ |
-| [如何复习基础知识](./docs/如何复习基础知识.md)                                     | 建立适合自己的复习节奏               |
-| [如何总结项目](./docs/如何总结项目.md)                                             | 把项目经验转化为面试表达             |
-| [聊聊如何找实习写简历为秋招做准备](./docs/聊聊如何找实习，写简历，为秋招做准备.md) | 从实习到秋招的整体建议               |
-| [如何调整心态](./docs/如何调整心态.md)                                             | 在求职过程中保持稳定状态             |
-| [计算机岗位地图](./docs/技能与知识要求.md)                                         | 后端、前端、测开、算法等方向如何选择 |
-
-<details>
-<summary><strong>☕ Java 后端</strong> — 校招最热门方向，点击展开</summary>
+<details open>
+<summary><strong>☕ Java 后端</strong></summary>
 <br>
 
-| 模块      | 文章                                                                                                                                                | 核心内容                 |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| 学习路线  | [Java 后端校招学习路线](./docs/基础知识/Java后端校招学习路线.md)                                                                                    | 八周训练计划             |
-| Java 基础 | [Java 基础与集合](./docs/基础知识/Java基础与集合高频面试题.md)                                                                                      | 集合、泛型、异常、IO     |
-| JVM       | [JVM 高频面试题](./docs/基础知识/JVM高频面试题.md)                                                                                                  | 内存模型、GC、类加载     |
-| MySQL     | [基础](./docs/基础知识/MySQL基础高频面试题%20.md) · [进阶](./docs/基础知识/MySQL进阶高频面试题.md) · [高级](./docs/基础知识/MySQL高级高频面试题.md) | 索引、锁、事务、优化     |
-| Redis     | [Redis 高频面试题](./docs/基础知识/Redis高频面试题.md)                                                                                              | 数据结构、缓存、分布式   |
-| Spring    | [Spring 与 Spring Boot](./docs/基础知识/Spring与SpringBoot高频面试题.md)                                                                            | IoC、AOP、事务、自动配置 |
-| 工程      | [Linux 与 Git 校招实用指南](./docs/基础知识/Linux与Git校招实用指南.md)                                                                              | 常用命令、排查思路       |
+[学习路线](./docs/基础知识/Java后端校招学习路线.md)　·　[Java 基础与集合](./docs/基础知识/Java基础与集合高频面试题.md)　·　[JVM](./docs/基础知识/JVM高频面试题.md)　·　[MySQL 基础](./docs/基础知识/MySQL基础高频面试题%20.md)　·　[MySQL 进阶](./docs/基础知识/MySQL进阶高频面试题.md)　·　[MySQL 高级](./docs/基础知识/MySQL高级高频面试题.md)　·　[Redis](./docs/基础知识/Redis高频面试题.md)　·　[Spring](./docs/基础知识/Spring与SpringBoot高频面试题.md)　·　[Linux & Git](./docs/基础知识/Linux与Git校招实用指南.md)
 
 </details>
 
 <details>
-<summary><strong>🔬 AI 应用研发</strong> — 对标阿里校招岗位，点击展开</summary>
+<summary><strong>🔬 AI 应用研发</strong></summary>
 <br>
 
-| 模块   | 文章                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------- |
-| 总览   | [专题首页](./docs/AI应用研发/README.md) · [十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md) |
-| Agent  | [Agent 系统设计与工程化](./docs/AI应用研发/02-Agent系统设计与工程化.md)                                  |
-| RAG    | [RAG 从检索到评测](./docs/AI应用研发/03-RAG从检索到评测.md)                                              |
-| MCP    | [Tool Calling 与 MCP](./docs/AI应用研发/04-ToolCalling与MCP.md)                                          |
-| 评测   | [评测、可观测与安全](./docs/AI应用研发/05-评测可观测与安全.md)                                           |
-| 面试   | [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md)                                             |
-| 性能   | [推理性能基础](./docs/AI应用研发/07-推理性能基础.md)                                                     |
-| 工程   | [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md)                                           |
-| 向量库 | [向量数据库选型与实战](./docs/AI应用研发/09-向量数据库选型与实战.md)                                     |
-| 框架   | [LangChain 与 LlamaIndex 框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md)                |
+[专题首页](./docs/AI应用研发/README.md)　·　[十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md)　·　[Agent](./docs/AI应用研发/02-Agent系统设计与工程化.md)　·　[RAG](./docs/AI应用研发/03-RAG从检索到评测.md)　·　[MCP](./docs/AI应用研发/04-ToolCalling与MCP.md)　·　[评测与安全](./docs/AI应用研发/05-评测可观测与安全.md)　·　[面试准备](./docs/AI应用研发/06-作品集与面试准备.md)　·　[推理性能](./docs/AI应用研发/07-推理性能基础.md)　·　[AI Coding](./docs/AI应用研发/08-AICoding工程实践.md)　·　[向量数据库](./docs/AI应用研发/09-向量数据库选型与实战.md)　·　[框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md)
 
 </details>
 
 <details>
-<summary><strong>🐍 Python</strong> · <strong>🌐 计算机网络</strong> · <strong>💻 操作系统</strong> · <strong>⚡ 算法</strong> · <strong>🎨 前端</strong> — 点击展开</summary>
+<summary><strong>🤖 大模型使用</strong> · <strong>🐍 Python</strong> · <strong>🌐 计算机网络</strong> · <strong>💻 操作系统</strong> · <strong>⚡ 算法</strong> · <strong>🎨 前端</strong></summary>
 <br>
 
-| 方向       | 文章                                                                                                                                                                              |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| AI 面试题  | [大模型与 AI 面试高频题](./docs/基础知识/大模型与AI面试高频题.md)                                                                                                                 |
-| Python     | [上篇](./docs/基础知识/Python常见知识点和面试题总结上.md) · [中篇](./docs/基础知识/Python常见知识点和面试题总结中.md) · [下篇](./docs/基础知识/Python常见知识点和面试题总结下.md) |
-| 计算机网络 | [常见知识点和面试题总结](./docs/基础知识/计算机网络常见知识点和面试题总结上%20.md)                                                                                                |
-| 操作系统   | [高频面试题](./docs/基础知识/操作系统高频面试题.md)                                                                                                                               |
-| 算法       | [数据结构与算法刷题计划](./docs/基础知识/数据结构与算法刷题计划.md)                                                                                                               |
-| 前端       | [前端工程师学习路线](./docs/基础知识/前端工程师.md)                                                                                                                               |
+| 方向 | 入口 |
+| --- | --- |
+| 大模型使用 | [专题首页](./docs/大模型使用/README.md) · [快速入门](./docs/如何使用大模型提升学习和求职效率.md) |
+| AI 面试题 | [大模型与 AI 面试高频题](./docs/基础知识/大模型与AI面试高频题.md) |
+| Python | [上](./docs/基础知识/Python常见知识点和面试题总结上.md) · [中](./docs/基础知识/Python常见知识点和面试题总结中.md) · [下](./docs/基础知识/Python常见知识点和面试题总结下.md) |
+| 计算机网络 | [面试题总结](./docs/基础知识/计算机网络常见知识点和面试题总结上%20.md) |
+| 操作系统 | [高频面试题](./docs/基础知识/操作系统高频面试题.md) |
+| 算法 | [刷题计划](./docs/基础知识/数据结构与算法刷题计划.md) |
+| 前端 | [学习路线](./docs/基础知识/前端工程师.md) |
 
 </details>
-
----
-
-## 🤖 大模型使用专题
-
-<p align="center">
-  <img src="./docs/大模型使用/images/大模型使用专题封面.png" alt="大模型使用专题封面" width="600" />
-</p>
-
-大模型可以成为学习和求职过程中的**助教、面试官与讨论伙伴**。专题强调实战方法，也强调事实核验、隐私保护和独立思考。
-
-> 📖 **快速入门**：[如何使用大模型提升学习和求职效率](./docs/如何使用大模型提升学习和求职效率.md)　|　**完整专题**：[11 篇图文实战文章](./docs/大模型使用/README.md)
-
-<details>
-<summary>📑 点击预览全部 11 篇文章</summary>
-<br>
-
-1. [从提问到交付：写出高质量提示词](./docs/大模型使用/01-从提问到交付：写出高质量提示词.md)
-2. [用大模型制定高效复习计划](./docs/大模型使用/02-用大模型制定高效复习计划.md)
-3. [用大模型模拟技术面试](./docs/大模型使用/03-用大模型模拟技术面试.md)
-4. [用大模型打磨求职简历](./docs/大模型使用/04-用大模型打磨求职简历.md)
-5. [用大模型复盘项目经历](./docs/大模型使用/05-用大模型复盘项目经历.md)
-6. [用大模型辅助编程与调试](./docs/大模型使用/06-用大模型辅助编程与调试.md)
-7. [用大模型阅读论文和技术文档](./docs/大模型使用/07-用大模型阅读论文和技术文档.md)
-8. [用大模型检索信息与核验事实](./docs/大模型使用/08-用大模型检索信息与核验事实.md)
-9. [大模型使用中的隐私安全与边界](./docs/大模型使用/09-大模型使用中的隐私安全与边界.md)
-10. [用大模型构建个人知识库](./docs/大模型使用/10-用大模型构建个人知识库.md)
-11. [用大模型做系统设计练习](./docs/大模型使用/11-用大模型做系统设计练习.md)
-
-</details>
-
----
-
-## 🔬 AI 应用研发求职
-
-> 根据阿里巴巴校园招聘 [AI 应用研发工程师](https://campus-talent.alibaba.com/campus/position/199903220038?deptCodes=) 岗位要求整理。重点不在"会不会调用模型"，而在于**能否交付一个可评测、可观测、能降级、有安全边界的 AI 系统**。
-
-| 模块     | 文章                                                                                      | 你学到什么                                  |
-| -------- | ----------------------------------------------------------------------------------------- | ------------------------------------------- |
-| 🗺️ 路线   | [岗位能力地图与十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md)              | 从岗位描述反推学习顺序和验收产物            |
-| 🤖 Agent  | [Agent 系统设计](./docs/AI应用研发/02-Agent系统设计与工程化.md)                           | 状态、编排、重试、降级与多 Agent 边界       |
-| 📚 RAG    | [RAG 从检索到评测](./docs/AI应用研发/03-RAG从检索到评测.md)                               | 分块、召回、重排、引用和错误归因            |
-| 🔌 MCP    | [Tool Calling 与 MCP](./docs/AI应用研发/04-ToolCalling与MCP.md)                           | 工具协议、权限、确认和审计                  |
-| 🛡️ 评测   | [评测、可观测与安全](./docs/AI应用研发/05-评测可观测与安全.md)                            | 回归测试、Trace、性能、降级与提示词注入     |
-| 💼 面试   | [作品集与面试准备](./docs/AI应用研发/06-作品集与面试准备.md)                              | 把聊天 Demo 改造成可验证的求职项目          |
-| ⚡ 性能   | [推理性能基础](./docs/AI应用研发/07-推理性能基础.md)                                      | 延迟、Streaming、KV Cache 与推理框架        |
-| 🧪 工程   | [AI Coding 工程实践](./docs/AI应用研发/08-AICoding工程实践.md)                            | 用模型辅助编码，保留审查、测试和数据边界    |
-| 🗄️ 向量库 | [向量数据库选型与实战](./docs/AI应用研发/09-向量数据库选型与实战.md)                      | Milvus、Chroma、Pinecone 对比与 Chroma 实战 |
-| ⚖️ 框架   | [LangChain 与 LlamaIndex 框架对比](./docs/AI应用研发/10-LangChain与LlamaIndex框架对比.md) | LangChain 管流程，LlamaIndex 管数据         |
-
----
-
-## 📈 AI 求职趋势
-
-> 2025-2026 年校招 AI 岗位大爆发——不只招算法研究员，AI 应用研发、AI 产品、AI 测试等岗位大量出现。
-
-| 内容                                                              | 说明                                           |
-| ----------------------------------------------------------------- | ---------------------------------------------- |
-| [AI 岗位全景与转型路径](./docs/AI求职/01-AI岗位全景与转型路径.md) | 六类岗位地图、三条转型路径、简历差异与常见误区 |
-| [AI 求职专题首页](./docs/AI求职/README.md)                        | 阅读地图与后续规划                             |
 
 ---
 
 ## 📝 简历制作
 
-> 一份好简历的核心不是堆叠技术名词，而是清楚地说明：**你做过什么、解决了什么问题、产生了什么结果**。
-
-| 内容                                                                | 适合谁                     |
-| ------------------------------------------------------------------- | -------------------------- |
-| [即刻简历：简历评估工具](./docs/简历/即刻简历.md)                   | 🔥 想快速检查简历表达的同学 |
-| [如何写好一份简历](./docs/简历/如何写好一份简历.md)                 | 📝 从零开始梳理简历结构     |
-| [一份真实的互联网大厂简历](./docs/简历/一份真实的互联网大厂简历.md) | 👀 想看真实案例参考         |
-| [常见项目的 STAR 原则描述](./docs/简历/STAR原则.md)                 | 💡 想优化项目经历表达       |
-| [好用的简历模板](./docs/简历/好用的简历模板.md)                     | 🎨 想找合适版式             |
-| [简历的重要性](./docs/简历/简历的重要性.md)                         | 🤔 想理解简历在求职中的作用 |
-| [简历修改服务](./docs/简历/简历修改服务.md)                         | 📮 想获取人工反馈           |
-| [人手一份的求职表](./docs/求职表.md)                                | 📊 想跟踪投递和面试进度     |
+[即刻简历](./docs/简历/即刻简历.md)　·　[如何写好简历](./docs/简历/如何写好一份简历.md)　·　[真实大厂简历](./docs/简历/一份真实的互联网大厂简历.md)　·　[STAR 原则](./docs/简历/STAR原则.md)　·　[简历模板](./docs/简历/好用的简历模板.md)　·　[简历修改服务](./docs/简历/简历修改服务.md)　·　[求职表](./docs/求职表.md)
 
 ---
 
-## 🗓️ 校招时间表
+## 💬 面试攻略
 
-> 不同公司和岗位的招聘节奏可能变化，请以企业招聘官网和官方公告为准。
+**准备**：[面试官视角](./docs/面试攻略/面试官视角：技术面试的评估维度.md)　·　[复盘方法论](./docs/面试攻略/面试复盘方法论.md)　·　[算法面试](./docs/面试攻略/算法与代码面试准备指南.md)　·　[自我介绍](./docs/自我介绍.md)　·　[总结项目](./docs/如何总结项目.md)　·　[HR 面](./docs/面试攻略/HR面试常见问题.md)
 
-<p align="center">
-  <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E6%97%B6%E9%97%B4%E8%BD%B4.png" alt="校招时间轴" width="90%" />
-</p>
-
-👉 建议先阅读 [校招时间线：实习、秋招和春招分别做什么](./docs/求职规划/校招时间线.md)
-
----
-
-## 💬 面试攻略及真实面经
-
-面试不是背诵比赛。阅读面经时，重点关注**问题脉络、项目追问和自己的表达薄弱点**。
-
-### 🎤 面试准备
-
-| 内容                                                                       | 覆盖范围                             |
-| -------------------------------------------------------------------------- | ------------------------------------ |
-| [面试官视角：技术面试的评估维度](./docs/面试攻略/面试官视角：技术面试的评估维度.md) | 🆕 打分表、3分vs5分回答、扣分项、加分提问 |
-| [面试复盘方法论](./docs/面试攻略/面试复盘方法论.md)                         | 🆕 复盘模板、错题本、追问还原、卡点诊断     |
-| [算法与代码面试准备指南](./docs/面试攻略/算法与代码面试准备指南.md)         | 🆕 刷题策略、沟通技巧、面试模板、卡住自救   |
-| [面试中如何进行自我介绍](./docs/自我介绍.md)                               | 前端、后端、算法、测试、客户端、硬件 |
-| [如何总结项目](./docs/如何总结项目.md)                                     | 提炼项目亮点和回答思路               |
-| [HR 面试常见问题](./docs/面试攻略/HR面试常见问题.md)                       | 求职动机、薪资沟通、反问技巧         |
-| [面试阿里 4 次全过经验分享](./docs/面试阿里4次，全过！大厂面试经验分享.md) | 面试准备与流程复盘                   |
-
-### 📋 真实面经
-
-| 公司       | 方向           | 结果       | 文章                                                           |
-| ---------- | -------------- | ---------- | -------------------------------------------------------------- |
-| 🟠 阿里菜鸟 | 后端暑期实习   | ✅ 已 OC    | [阅读](./docs/面经/阿里菜鸟网络后端暑期实习（已OC）.md)        |
-| 🟡 美团     | 后端开发       | ✅ 已 offer | [阅读](./docs/面经/美团面试经验分享（已offer）.md)             |
-| 🟡 美团     | 成长与求职复盘 | ✅ 已 offer | [阅读](./docs/面经/双非拿了美团offer.md)                       |
-| 🟥 快手     | Java 后端春招  | ✅ 已 offer | [阅读](./docs/面经/快手春招Java后端面试经验分享（已offer）.md) |
-| 🟥 快手     | Java 后端实习  | ✅ 已 OC    | [阅读](./docs/面经/快手实习Java后端面试经验分享（已OC）.md)    |
-| 🔵 百度     | C++ 提前批     | 📋 面经     | [阅读](./docs/面经/百度C++提前批面经.md)                       |
-| 🟢 招商银行 | 信用卡暑期实习 | 📋 面经     | [阅读](./docs/面经/招商银行信用卡暑期实习面经.md)              |
-
----
-
-## 📡 求职信息及渠道
-
-| 内容                                                                | 备注                       |
-| ------------------------------------------------------------------- | -------------------------- |
-| [如何投递与管理求职进度](./docs/求职规划/如何投递与管理求职进度.md) | 投递渠道、求职表和漏斗复盘 |
-| [国家大学生就业服务平台](https://job.ncss.cn/)                      | 官方就业服务平台           |
-| [八百家国企名单目录](https://t.zsxq.com/0dhNKXNU8)                  | 已发布                     |
-| [三百家互联网求职名单](https://t.zsxq.com/0dPXh5iHm)                | 已发布                     |
-| [专栏更新计划](./docs/todo.md)                                      | 查看后续内容安排           |
-
----
-
-## 📝 offer 与签约
-
-| 阶段         | 关键问题             | 参考文章                                                                    |
-| ------------ | -------------------- | --------------------------------------------------------------------------- |
-| ⚖️ offer 比较 | 哪个选择更适合我？   | [如何明智地选择 offer](./docs/多个offer如何进行选择.md)                     |
-| 💰 谈薪与签约 | offer/三方有哪些坑？ | [offer、三方和劳动合同避坑指南](./docs/签约/offer三方和劳动合同避坑指南.md) |
+**面经**：[阿里](./docs/面经/阿里菜鸟网络后端暑期实习（已OC）.md)　·　[美团 x2](./docs/面经/美团面试经验分享（已offer）.md)　·　[快手 x2](./docs/面经/快手春招Java后端面试经验分享（已offer）.md)　·　[百度](./docs/面经/百度C++提前批面经.md)　·　[招商银行](./docs/面经/招商银行信用卡暑期实习面经.md)
 
 ---
 
 ## 🌱 职业发展
 
-> 拿到 offer 只是起点，更长远的职业道路值得提前思考。
-
-| 内容                                                                                | 说明                                 |
-| ----------------------------------------------------------------------------------- | ------------------------------------ |
-| [第一份工作怎么选](./docs/职业发展/第一份工作怎么选.md)                             | 🆕 大厂/中厂/创业/国企/外企决策框架  |
-| [技术人的职业成长路径](./docs/职业发展/技术人的职业成长路径.md)                     | 🆕 从新人到骨干，IC vs 管理路线      |
-| [校招生第一年生存手册](./docs/职业发展/校招生第一年生存手册.md)                     | 🆕 试用期过关、踩坑清单、建立信任    |
-| [一人公司方法论](./docs/职业发展/一人公司方法论.md)                                 | 🆕 程序员如何构建独立商业系统        |
-| [常见互联网黑话](./docs/职业发展/互联网黑话.md)                                     | 理解互联网职场常用表达               |
-| [面试中被问"为什么不去互联网"](./docs/职业发展/面试中提问为什么不去互联网.md)       | 梳理岗位选择思路                     |
-| [银行科技岗 / 金融科技岗到底怎么样？](https://www.bilibili.com/video/BV12e411V7KM/) | 📺 视频分享                          |
+[第一份工作怎么选](./docs/职业发展/第一份工作怎么选.md)　·　[技术人成长路径](./docs/职业发展/技术人的职业成长路径.md)　·　[校招生第一年手册](./docs/职业发展/校招生第一年生存手册.md)　·　[一人公司方法论](./docs/职业发展/一人公司方法论.md)　·　[互联网黑话](./docs/职业发展/互联网黑话.md)　·　[国企面试](./docs/职业发展/面试中提问为什么不去互联网.md)　·　[银行科技岗](https://www.bilibili.com/video/BV12e411V7KM/)
 
 ---
 
-## 🌟 社区与支持
+## 📡 更多资源
 
-希望作为寒气中的一股暖风，为大家提供有价值的求职面试服务。
-
-<div align="center">
-  <a href="https://github.com/wuyoueeee/CS-Job-Guide">
-    <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E6%B5%B7%E6%8A%A5%20(2).png" width="280" alt="知识星球" />
-  </a>
-  <p><sub>加入知识星球：校招信息汇总 · 简历修改 · 资源分享 · 个性化求职建议 · 学习交流</sub></p>
-</div>
+[AI 求职趋势](./docs/AI求职/README.md)　·　[投递管理](./docs/求职规划/如何投递与管理求职进度.md)　·　[offer 选择](./docs/多个offer如何进行选择.md)　·　[签约避坑](./docs/签约/offer三方和劳动合同避坑指南.md)　·　[校招时间表](https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E6%97%B6%E9%97%B4%E8%BD%B4.png)　·　[更新计划](./docs/todo.md)
 
 ---
 
 ## ⭐ Star 趋势
 
-如果这份专栏对你有帮助，欢迎点一个 **Star** ⭐。你的支持会让它持续更新下去。
-
 <p align="center">
   <a href="https://github.com/wuyoueeee/CS-Job-Guide">
-    <img src="https://api.star-history.com/svg?repos=wuyoueeee/CS-Job-Guide&type=Date" alt="Star 趋势" width="80%" />
+    <img src="https://api.star-history.com/svg?repos=wuyoueeee/CS-Job-Guide&type=Date" alt="Star History" width="75%" />
   </a>
 </p>
 
@@ -395,11 +148,17 @@ flowchart LR
 
 <div align="center">
 
-<sub>🔄 持续更新中 · 愿每一次准备，都能让你离理想工作更近一点</sub>
+**知识星球** · 校招信息汇总 · 简历修改 · 资源共享 · 学习交流
+
+<a href="https://github.com/wuyoueeee/CS-Job-Guide">
+  <img src="https://cs-job-guide.oss-cn-beijing.aliyuncs.com/image/%E6%B5%B7%E6%8A%A5%20(2).png" width="240" alt="知识星球" />
+</a>
 
 <br>
+<br>
 
-<a href="https://github.com/wuyoueeee/CS-Job-Guide"><img src="https://img.shields.io/badge/⭐_Star-支持本项目-yellow?style=social" alt="Star" /></a>
-<a href="https://github.com/wuyoueeee/CS-Job-Guide/fork"><img src="https://img.shields.io/badge/🔀_Fork-参与共建-blue?style=social" alt="Fork" /></a>
+<sub>🔄 持续更新中 · 愿每一次准备，都能让你离理想工作更近一点</sub>
+
+<a href="https://github.com/wuyoueeee/CS-Job-Guide"><img src="https://img.shields.io/github/stars/wuyoueeee/CS-Job-Guide?style=social" /></a>
 
 </div>
