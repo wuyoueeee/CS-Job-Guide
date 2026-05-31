@@ -23,6 +23,7 @@
   - [校招时间表](#校招时间表)
   - [简历制作](#简历制作)
   - [基础知识](#基础知识)
+  - [大模型使用](#大模型使用)
   - [求职信息及渠道](#求职信息及渠道)
   - [面试攻略及经验](#面试攻略及经验)
   - [关于offer和三方](#关于offer和三方)
@@ -63,6 +64,11 @@
 - [前端](https://github.com/wuyoueeee/CS-Job-Guide/blob/master/docs/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88.md)
 - [后端](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
 - [算法](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/todo.md)
+
+<a name="largeLanguageModel"></a>
+
+## 大模型使用
+- [如何使用大模型提升学习和求职效率](https://github.com/wuyoueeee/CS_Job_Guide/blob/master/docs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8F%90%E5%8D%87%E5%AD%A6%E4%B9%A0%E5%92%8C%E6%B1%82%E8%81%8C%E6%95%88%E7%8E%87.md) ⭐⭐⭐
 
 <a name="information"></a>
 
