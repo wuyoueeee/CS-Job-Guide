@@ -34,10 +34,7 @@
 <br>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./docs/images/cs-job-guide-hero.png">
-    <img src="./docs/images/cs-job-guide-hero.png" alt="CS Job Guide 求职路线主视觉" width="100%" />
-  </picture>
+  <img src="./docs/images/cs-job-guide-hero.png" alt="CS Job Guide 求职路线主视觉" width="100%" />
 </p>
 
 > 💡 **求职没有标准答案，但充分准备会让每一次选择更有底气。**
