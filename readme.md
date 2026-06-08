@@ -7,16 +7,18 @@
 
 <div align="center">
 
-# CS Job Guide
+# CS Job Guide · 计算机求职开源手册
 
-**计算机专业求职指南**　·　一份有温度的资料库
+**从选方向、写简历、刷基础、过面试，到 offer 决策和签约避坑的一站式求职资料库**
 
-选择方向 · 准备简历 · 复习基础 · 冲刺面试 · 完成签约
+适合计算机专业同学准备实习、春招、秋招、银行/国企科技岗和 AI 应用研发岗位
 
 <p>
   <a href="https://space.bilibili.com/10406355"><img src="https://img.shields.io/badge/📺_B站-程序员无忧-fb7299?style=for-the-badge" alt="Bilibili" /></a>
   <a href="https://github.com/wuyoueeee/CS-Job-Guide/stargazers"><img src="https://img.shields.io/github/stars/wuyoueeee/CS-Job-Guide?style=for-the-badge&color=yellow" alt="Stars" /></a>
   <a href="https://github.com/wuyoueeee/CS-Job-Guide/network/members"><img src="https://img.shields.io/github/forks/wuyoueeee/CS-Job-Guide?style=for-the-badge&color=blue" alt="Forks" /></a>
+  <a href="https://github.com/wuyoueeee/CS-Job-Guide/commits/master"><img src="https://img.shields.io/github/last-commit/wuyoueeee/CS-Job-Guide?style=for-the-badge&color=brightgreen" alt="Last commit" /></a>
+  <a href="https://github.com/wuyoueeee/CS-Job-Guide"><img src="https://img.shields.io/badge/持续更新-求职干货-orange?style=for-the-badge" alt="持续更新" /></a>
 </p>
 
 <p>
@@ -26,6 +28,7 @@
   <a href="#-大模型使用专题">🤖 大模型</a>　
   <a href="#-ai-应用研发求职">🔬 AI 研发</a>　
   <a href="#-ai-求职趋势">📈 AI 求职</a>　
+  <a href="#-求职信息及渠道">📡 求职渠道</a>　
   <a href="#-offer--签约">📝 签约</a>
 </p>
 
@@ -39,11 +42,56 @@
 
 > 💡 **求职没有标准答案，但充分准备会让每一次选择更有底气。**
 
+<table>
+  <tr>
+    <td width="25%">
+      <strong>🎯 求职路线</strong><br>
+      <sub>从时间线、岗位选择到投递节奏，避免盲目海投。</sub>
+    </td>
+    <td width="25%">
+      <strong>📝 简历与项目</strong><br>
+      <sub>把经历整理成证据，让项目经得住追问。</sub>
+    </td>
+    <td width="25%">
+      <strong>📚 面试知识</strong><br>
+      <sub>Java、MySQL、Redis、Spring、算法、操作系统、网络等高频内容。</sub>
+    </td>
+    <td width="25%">
+      <strong>🤖 AI 与大模型</strong><br>
+      <sub>覆盖 AI 应用研发、RAG、Agent、大模型使用和 AI 面试题。</sub>
+    </td>
+  </tr>
+</table>
+
+## ✨ 为什么值得 Star
+
+| 你可能遇到的问题 | 这个仓库能帮你做什么 |
+| --- | --- |
+| 不知道该投后端、前端、AI、测试还是银行国企 | 用岗位地图和专题路线帮你判断方向 |
+| 简历写得像技术栈清单，投出去没反馈 | 用简历证据库、STAR 和真实案例重写经历 |
+| 面试题看过很多，但一被追问就乱 | 用项目深挖、复盘方法论和错题本建立表达闭环 |
+| 想转 AI 应用研发，但不知道学到什么程度 | 用对标岗位的十二周路线和作品集指南拆解能力 |
+| 拿到多个 offer，不知道怎么选 | 用 offer 决策表、签约避坑和职业发展内容降低风险 |
+
+## 🧭 3 分钟找到你需要的资料
+
+| 当前状态 | 直接看这里 |
+| --- | --- |
+| 我刚开始准备校招 | [计算机专业求职全流程](./docs/计算机求职指南.md) · [校招时间线](./docs/求职规划/校招时间线.md) |
+| 我简历没有反馈 | [简历证据库](./docs/简历/简历证据库.md) · [如何写好一份简历](./docs/简历/如何写好一份简历.md) |
+| 我面试总被项目追问卡住 | [项目深挖面试准备清单](./docs/面试攻略/项目深挖面试准备清单.md) · [如何总结项目](./docs/如何总结项目.md) |
+| 我想系统复习 Java 后端 | [Java 后端校招学习路线](./docs/基础知识/Java后端校招学习路线.md) · [Spring 高频题](./docs/基础知识/Spring与SpringBoot高频面试题.md) |
+| 我想准备 AI 应用研发 | [AI 应用研发专题](./docs/AI应用研发/README.md) · [岗位能力地图与十二周路线](./docs/AI应用研发/01-岗位能力地图与十二周路线.md) |
+| 我想投银行/国企科技岗 | [银行与国企科技岗求职指南](./docs/求职规划/银行与国企科技岗求职指南.md) |
+| 我拿到 offer 了 | [Offer 决策表](./docs/签约/offer决策表.md) · [offer、三方和劳动合同避坑指南](./docs/签约/offer三方和劳动合同避坑指南.md) |
+
 ---
 
 ## 🚀 从这里开始
 
 CS Job Guide 是一份面向计算机专业学生的求职资料库，适合正在准备**实习、春招、秋招和职业选择**的同学。这里不追求资料越多越好，更希望帮你在正确的阶段找到真正需要的内容。
+
+如果你愿意系统准备，可以按下面这条路线走；如果你时间紧，就直接从上面的“3 分钟导航”切入。
 
 <table align="center">
   <tr align="center">
@@ -110,14 +158,14 @@ flowchart LR
       <sub>岗位池、投递漏斗、周复盘和面试节奏</sub>
     </td>
     <td width="33%">
-      <strong>🤖 AI 面试高频题</strong> 🆕<br>
-      <sub><a href="./docs/基础知识/大模型与AI面试高频题.md">大模型与 AI 面试高频题</a></sub><br>
-      <sub>Transformer、RAG、Agent、Prompt Engineering 等 7 大模块</sub>
+      <strong>🏦 银行与国企科技岗</strong> 🆕<br>
+      <sub><a href="./docs/求职规划/银行与国企科技岗求职指南.md">银行与国企科技岗求职指南</a></sub><br>
+      <sub>岗位分类、笔试面试、简历改法和签约风险</sub>
     </td>
     <td width="34%">
-      <strong>📈 AI 求职趋势</strong> 🆕<br>
-      <sub><a href="./docs/AI求职/01-AI岗位全景与转型路径.md">AI 岗位全景与转型路径</a></sub><br>
-      <sub>六类 AI 岗位地图、三条转型路径、简历差异</sub>
+      <strong>🧩 项目与反问</strong> 🆕<br>
+      <sub><a href="./docs/面试攻略/项目深挖面试准备清单.md">项目深挖</a> · <a href="./docs/面试攻略/反问面试官问题清单.md">反问清单</a></sub><br>
+      <sub>二面/终面高频卡点，帮你把项目讲深</sub>
     </td>
   </tr>
   <tr>
@@ -132,9 +180,9 @@ flowchart LR
       <sub>对标阿里岗位，新增向量数据库、LangChain vs LlamaIndex</sub>
     </td>
     <td width="34%">
-      <strong>🤖 大模型使用专题</strong><br>
-      <sub><a href="./docs/大模型使用/README.md">从高质量提问到个人知识库</a> · <a href="./docs/大模型使用/11-用大模型做系统设计练习.md">系统设计练习</a></sub><br>
-      <sub>11 篇图文实战文章，新增 AI 辅助系统设计练习</sub>
+      <strong>🤖 大模型与 AI 面试</strong><br>
+      <sub><a href="./docs/大模型使用/README.md">大模型使用专题</a> · <a href="./docs/基础知识/大模型与AI面试高频题.md">AI 面试高频题</a></sub><br>
+      <sub>11 篇图文实战文章，覆盖 RAG、Agent、Prompt Engineering</sub>
     </td>
   </tr>
 </table>
@@ -310,6 +358,8 @@ flowchart LR
 | [面试官视角：技术面试的评估维度](./docs/面试攻略/面试官视角：技术面试的评估维度.md) | 🆕 打分表、3分vs5分回答、扣分项、加分提问 |
 | [面试复盘方法论](./docs/面试攻略/面试复盘方法论.md)                         | 🆕 复盘模板、错题本、追问还原、卡点诊断     |
 | [算法与代码面试准备指南](./docs/面试攻略/算法与代码面试准备指南.md)         | 🆕 刷题策略、沟通技巧、面试模板、卡住自救   |
+| [项目深挖面试准备清单](./docs/面试攻略/项目深挖面试准备清单.md)             | 🆕 项目追问、失败案例、技术取舍和速查表     |
+| [反问面试官问题清单](./docs/面试攻略/反问面试官问题清单.md)                 | 🆕 技术面、HR 面、offer 前各阶段反问模板     |
 | [面试中如何进行自我介绍](./docs/自我介绍.md)                               | 前端、后端、算法、测试、客户端、硬件 |
 | [如何总结项目](./docs/如何总结项目.md)                                     | 提炼项目亮点和回答思路               |
 | [HR 面试常见问题](./docs/面试攻略/HR面试常见问题.md)                       | 求职动机、薪资沟通、反问技巧         |
@@ -335,6 +385,7 @@ flowchart LR
 | ------------------------------------------------------------------- | -------------------------- |
 | [如何投递与管理求职进度](./docs/求职规划/如何投递与管理求职进度.md) | 投递渠道、求职表和漏斗复盘 |
 | [求职季作战手册](./docs/求职规划/求职季作战手册.md) | 三层岗位池、投递漏斗、周复盘和面试前节奏 |
+| [银行与国企科技岗求职指南](./docs/求职规划/银行与国企科技岗求职指南.md) | 银行科技岗、央国企数字化岗位、笔试面试和签约风险 |
 | [国家大学生就业服务平台](https://job.ncss.cn/)                      | 官方就业服务平台           |
 | [八百家国企名单目录](https://t.zsxq.com/0dhNKXNU8)                  | 已发布                     |
 | [三百家互联网求职名单](https://t.zsxq.com/0dPXh5iHm)                | 已发布                     |
@@ -347,6 +398,7 @@ flowchart LR
 | 阶段         | 关键问题             | 参考文章                                                                    |
 | ------------ | -------------------- | --------------------------------------------------------------------------- |
 | ⚖️ offer 比较 | 哪个选择更适合我？   | [如何明智地选择 offer](./docs/多个offer如何进行选择.md)                     |
+| 📊 决策表 | 如何量化比较风险和成长？ | [Offer 决策表](./docs/签约/offer决策表.md) |
 | 💰 谈薪与签约 | offer/三方有哪些坑？ | [offer、三方和劳动合同避坑指南](./docs/签约/offer三方和劳动合同避坑指南.md) |
 
 ---
