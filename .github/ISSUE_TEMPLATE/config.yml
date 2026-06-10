@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 阅读贡献指南
+    url: https://github.com/wuyoueeee/CS-Job-Guide/blob/master/CONTRIBUTING.md
+    about: 提交 Issue 或 PR 前，建议先阅读贡献指南。

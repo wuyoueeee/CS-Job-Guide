@@ -16,6 +16,7 @@
 - [计算机岗位地图](./技能与知识要求.md)
 - [Java 后端校招学习路线](./基础知识/Java后端校招学习路线.md)
 - [项目实战专题](./项目实战/README.md)（Java 后端项目清单、AI 作品集、RAG、秒杀、短链、IM、网关、权限系统）
+- [求职工具模板](../templates/README.md)（简历证据库、投递管理、面试复盘、Offer 对比、Markdown 周计划）
 - [Spring 与 Spring Boot：从容器、代理到一次事务失效](./基础知识/Spring与SpringBoot高频面试题.md)
 - [Linux 与 Git：校招够用的工程基本功](./基础知识/Linux与Git校招实用指南.md)
 - [AI 应用研发工程师求职专题](./AI应用研发/README.md)
