@@ -7,7 +7,8 @@
 | 优先级 | 主题 | 状态 |
 | --- | --- | --- |
 | P1 | 全库转向「用 AI 求职」：总纲已上线，各专题按七环节补 AI 方法 | 进行中 |
-| P1 | 数据化改造：各专题补数据锚点、可溯源图表与操作清单 | 进行中（AI 求职专题已完成，其余专题按批次推进） |
+| P1 | 数据化改造：各专题补数据锚点、可溯源图表与操作清单 | 进行中（AI 求职、项目实战两专题已完成，其余专题按批次推进） |
+| P1 | 项目实战专题深度化：十篇拆解补容量估算、验证方法与 AI 版块 | 已完成 |
 | P1 | 测试开发岗位学习路线 | 规划中 |
 | P1 | 前端高频面试题专题 | 规划中 |
 | P1 | C++ 校招学习路线 | 规划中 |
@@ -24,6 +25,10 @@
 - [简历改造案例库](./简历/简历改造案例库.md)
 - [项目作品集模板](./项目作品集/README.md)
 - [项目实战专题](./项目实战/README.md)（Java 后端项目清单、AI 作品集、RAG、秒杀、短链、IM、网关、权限系统）
+  - 主线为大模型项目：RAG、Agent 工具调用平台、AI 应用评测平台、结构化信息抽取、文档智能解析；传统后端五篇移入 `项目实战/传统后端项目/` 作副线
+  - 十篇系统拆解统一按「先算账、再设计、再验证」重写：容量估算、设计取舍对照、验证方法、追问准备、AI 四件套
+  - 配图分两类：27 张数据图（chartkit：横向条、纵向条、堆叠、分组、折线、散点、矩阵）加 9 张结构示意图（diagramkit：架构图、流程图、时序图），数据图说明数字关系，示意图说明模块关系
+  - 数据登记：[`docs/_data/project-metrics.json`](./_data/project-metrics.json)（传统后端）、[`docs/_data/llm-project-metrics.json`](./_data/llm-project-metrics.json)（大模型项目）；图表脚本：[`tools/build_project_charts.py`](../tools/build_project_charts.py)、[`tools/build_llm_project_charts.py`](../tools/build_llm_project_charts.py)、[`tools/build_project_diagrams.py`](../tools/build_project_diagrams.py)
 - [求职工具模板](../templates/README.md)（简历证据库、投递管理、面试复盘、Offer 对比、Markdown 周计划）
 - [Spring 与 Spring Boot：从容器、代理到一次事务失效](./基础知识/Spring与SpringBoot高频面试题.md)
 - [Linux 与 Git：校招够用的工程基本功](./基础知识/Linux与Git校招实用指南.md)
@@ -31,7 +36,7 @@
 - [大模型使用专题](./大模型使用/README.md) (+ 系统设计练习篇)
 - [AI 求职趋势与岗位分析](./AI求职/README.md)
   - [AI 岗位全景与转型路径](./AI求职/01-AI岗位全景与转型路径.md)（六类岗位、三条转型路径、90 天清单）
-  - [AI 岗位数据图谱](./AI求职/02-AI岗位数据图谱.md)（12 张可复现图表、五个口径陷阱）
+  - [AI 岗位数据图谱](./AI求职/02-AI岗位数据图谱.md)（5 张可复现图表、五个口径陷阱）
   - [AI 求职行动手册](./AI求职/03-AI求职行动手册.md)（阶段自测、简历改写、复盘模板）
   - 数据登记：[`docs/_data/ai-job-market.json`](./_data/ai-job-market.json)；图表脚本：[`tools/build_charts.py`](../tools/build_charts.py)
 - [大模型与 AI 面试高频题](./基础知识/大模型与AI面试高频题.md)

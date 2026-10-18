@@ -251,8 +251,8 @@ flowchart LR
     </td>
     <td width="33%">
       <strong>🧱 项目实战专题</strong> 🆕<br>
-      <sub><a href="./docs/项目实战/README.md">项目实战首页</a> · <a href="./docs/项目实战/RAG项目从0到1.md">RAG 从 0 到 1</a></sub><br>
-      <sub>Java 后端、AI 应用、秒杀、短链、IM、网关、权限系统</sub>
+      <sub><a href="./docs/项目实战/README.md">项目实战首页</a> · <a href="./docs/项目实战/RAG项目从0到1.md">RAG 从 0 到 1</a> · <a href="./docs/项目实战/Agent工具调用平台拆解.md">Agent 平台</a></sub><br>
+      <sub>大模型项目主线：RAG、Agent、评测平台、信息抽取、文档解析</sub>
     </td>
     <td width="34%">
       <strong>🧩 面试项目与反问</strong> 🆕<br>
@@ -390,11 +390,16 @@ flowchart LR
 | 方向 | 内容 | 你能拿到什么 |
 | --- | --- | --- |
 | 总览 | [项目实战专题首页](./docs/项目实战/README.md) | 项目选择标准、面试评分维度、项目材料模板 |
-| 项目清单 | [Java 后端校招项目清单](./docs/项目实战/Java后端校招项目清单.md) | 秒杀、短链、IM、网关、权限、订单等项目选择 |
+| 项目清单 | [Java 后端校招项目清单](./docs/项目实战/Java后端校招项目清单.md) | 按岗位选项目、功能改亮点、三种组合 |
 | AI 作品集 | [AI 应用研发作品集项目清单](./docs/项目实战/AI应用研发作品集项目清单.md) | RAG、Agent、评测平台、Prompt 管理等方向 |
-| RAG 实战 | [RAG 项目从 0 到 1](./docs/项目实战/RAG项目从0到1.md) | 文档解析、切分、召回、重排、引用、评测 |
-| 后端拆解 | [秒杀](./docs/项目实战/秒杀系统项目拆解.md) · [短链](./docs/项目实战/短链系统项目拆解.md) · [IM](./docs/项目实战/IM系统项目拆解.md) | 架构图、技术亮点、面试追问、简历写法 |
-| 基础能力 | [API 网关](./docs/项目实战/API网关项目拆解.md) · [权限系统](./docs/项目实战/权限系统项目拆解.md) | 鉴权、限流、路由、RBAC、数据权限和审计 |
+| RAG 实战 | [RAG 项目从 0 到 1](./docs/项目实战/RAG项目从0到1.md) | 延迟与 token 预算、混合检索、权限下推、评测集 |
+| Agent | [Agent 工具调用平台](./docs/项目实战/Agent工具调用平台拆解.md) | 上下文膨胀预算、参数校验、权限分级、循环防护 |
+| 评测平台 | [AI 应用评测平台](./docs/项目实战/AI应用评测平台拆解.md) | 测试集资产化、并发执行、回归比对、badcase 回流 |
+| 信息抽取 | [结构化信息抽取系统](./docs/项目实战/结构化信息抽取系统拆解.md) | Schema 约束、校验重试、字段级置信度、人工闭环 |
+| 文档解析 | [文档智能解析系统](./docs/项目实战/文档智能解析系统拆解.md) | 分级路由、版面分析、表格结构、阅读顺序 |
+| 后端副线 | [传统后端项目](./docs/项目实战/传统后端项目/README.md)（秒杀、短链、IM、网关、权限） | 容量估算、架构图、设计取舍、验证方法、追问准备 |
+
+> 十篇系统拆解都按「先算账、再设计、再验证」组织：动手前先算容量和延迟预算，讲方案必须给替代选项，最后给出能自己跑的验证方法（压测、对账、故障注入）。除数据图外每篇还配结构示意图（架构图、流程图、时序图）：数据图说明数字之间的关系，示意图说明模块之间的关系。共 27 张数据图与 9 张示意图，假设与算式分别登记在 [`docs/_data/llm-project-metrics.json`](./docs/_data/llm-project-metrics.json) 和 [`docs/_data/project-metrics.json`](./docs/_data/project-metrics.json)，由 `tools/build_llm_project_charts.py`、`tools/build_project_charts.py`、`tools/build_project_diagrams.py` 生成，可复现。
 
 ---
 
