@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "project": "CS Job Guide",
+    "topic": "AI 求职市场数据",
+    "compiled_at": "2026-10-18",
+    "rules": [
+      "本文件是文章里所有数字的唯一来源，正文出现的每个数字必须能在 sources 中找到对应条目",
+      "禁止在正文中新增本文件之外的数字；确需补充时先在此登记来源",
+      "不同机构口径不同（需供比 vs 供需比），引用时必须带口径说明，不得直接比较大小"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "脉脉高聘人才智库",
+      "title": "抢占 AI 新生代：2026 年名校生求职招聘洞察",
+      "period": "2026 年 1-5 月",
+      "url": "https://www.fxbaogao.com/detail/5633585",
+      "note": "校招口径，样本为平台新发校招岗位"
+    },
+    {
+      "id": "S2",
+      "publisher": "前程无忧人力资源调研中心",
+      "title": "2026 届校招市场 AI 人才需求报告",
+      "period": "2026 届校招",
+      "url": "https://2048ai.net/69605d4b6554f1331aa0be57.html",
+      "note": "企业侧问卷调研，样本为企业 HR"
+    },
+    {
+      "id": "S3",
+      "publisher": "智联招聘",
+      "title": "2026 年人工智能产业人才发展报告",
+      "period": "2026 年上半年",
+      "url": "http://www.chisa.edu.cn/talents/202607/t20260721_2111503567.html",
+      "note": "全行业口径（含社招），非纯校招；需供比 = 需求 / 供给"
+    },
+    {
+      "id": "S4",
+      "publisher": "猎聘大数据研究院",
+      "title": "2026 机器人领域人才供需趋势洞察报告",
+      "period": "2025-2026",
+      "url": "http://www.jushenyanxishe.com/archives/500853",
+      "note": "机器人 / 人形机器人细分赛道"
+    },
+    {
+      "id": "S5",
+      "publisher": "脉脉高聘人才智库",
+      "title": "脉脉 2026 春招职场洞察报告",
+      "period": "2026 年 1-4 月",
+      "url": "https://sj.cfi.cn/newspage.aspx?client=phone&id=20260601000193",
+      "note": "招聘指数为平台自建相对指标，非职位绝对数"
+    },
+    {
+      "id": "S6",
+      "publisher": "新华网浙江 / 北京理工大学调研",
+      "title": "机器人产业发展背后的就业新图景调查",
+      "period": "2026 年 9 月",
+      "url": "http://zj.news.cn/20260922/76d35ea9f9204712abf57757bc18efe6/c.html",
+      "note": "具身智能人才缺口约 100 万，年扩大约 67%"
+    },
+    {
+      "id": "S7",
+      "publisher": "企业公开校招 JD 抽样（6 份）",
+      "title": "AI 应用开发岗公开 JD 关键词",
+      "period": "2026 年 5-9 月",
+      "url": "",
+      "note": "样本为公开校招/应届岗位描述，城市含广州、南京、武汉、惠州、合肥；用于技能关键词归纳，不代表全市场分布"
+    }
+  ],
+  "metrics": {
+    "campus_ai_growth": {
+      "source": "S1",
+      "unit": "%",
+      "items": [
+        {
+          "label": "校招整体新发岗位",
+          "value": 3.56
+        },
+        {
+          "label": "校招 AI 岗位",
+          "value": 47.3
+        }
+      ]
+    },
+    "ai_penetration": {
+      "source": "S1",
+      "unit": "%",
+      "items": [
+        {
+          "label": "2025 年",
+          "value": 26.41
+        },
+        {
+          "label": "2026 年",
+          "value": 37.56
+        }
+      ]
+    },
+    "city_penetration": {
+      "source": "S1",
+      "unit": "%",
+      "note": "该城市新发校招岗位中与 AI 相关的比例",
+      "items": [
+        {
+          "label": "北京",
+          "value": 49.5
+        },
+        {
+          "label": "杭州",
+          "value": 43.1
+        },
+        {
+          "label": "深圳",
+          "value": 42.6
+        },
+        {
+          "label": "上海",
+          "value": 39.0
+        }
+      ]
+    },
+    "salary_median": {
+      "source": "S2",
+      "unit": "元/月",
+      "note": "校招岗位月薪中位数",
+      "items": [
+        {
+          "label": "大模型算法工程师",
+          "value": 24760
+        },
+        {
+          "label": "深度学习工程师",
+          "value": 24466
+        },
+        {
+          "label": "NLP 工程师",
+          "value": 24378
+        },
+        {
+          "label": "多模态算法工程师",
+          "value": 23000
+        },
+        {
+          "label": "自动驾驶算法工程师",
+          "value": 23000
+        },
+        {
+          "label": "机器学习工程师",
+          "value": 23000
+        },
+        {
+          "label": "推荐算法工程师",
+          "value": 23000
+        },
+        {
+          "label": "AI 测试工程师",
+          "value": 13621
+        },
+        {
+          "label": "AI 数据训练师",
+          "value": 8513
+        }
+      ]
+    },
+    "supply_demand": {
+      "source": "S1",
+      "unit": "供需比",
+      "note": "供需比 = 人才供给 / 岗位需求；小于 1 表示供不应求，越低越缺人",
+      "items": [
+        {
+          "label": "高性能计算工程师",
+          "value": 0.15
+        },
+        {
+          "label": "大模型算法",
+          "value": 0.39
+        },
+        {
+          "label": "AI 整体",
+          "value": 0.97
+        }
+      ]
+    },
+    "demand_supply_ratio": {
+      "source": "S3",
+      "unit": "需供比",
+      "note": "需供比 = 岗位需求 / 人才供给；口径与 S1 相反，大于 1 表示缺人",
+      "items": [
+        {
+          "label": "人工智能工程师（全行业）",
+          "value": 2.62
+        },
+        {
+          "label": "汽车研发/制造",
+          "value": 8.2
+        }
+      ]
+    },
+    "firm_hiring_size": {
+      "source": "S2",
+      "unit": "% 企业占比",
+      "items": [
+        {
+          "label": "5 人以内",
+          "value": 65.8
+        },
+        {
+          "label": "5-20 人",
+          "value": 27.1
+        },
+        {
+          "label": "20 人以上",
+          "value": 7.1
+        }
+      ]
+    },
+    "firm_expand_intent": {
+      "source": "S2",
+      "unit": "% 企业占比",
+      "items": [
+        {
+          "label": "显著增加",
+          "value": 21.9
+        },
+        {
+          "label": "小幅增加",
+          "value": 36.3
+        },
+        {
+          "label": "基本持平",
+          "value": 38.8
+        }
+      ]
+    },
+    "screening_criteria": {
+      "source": "S2",
+      "unit": "% 企业选择比例",
+      "note": "多选题，合计大于 100%",
+      "items": [
+        {
+          "label": "数学与算法基础",
+          "value": 60.3
+        },
+        {
+          "label": "项目/实习/竞赛经历",
+          "value": 52.5
+        },
+        {
+          "label": "精通当前热门技术",
+          "value": 34.6
+        },
+        {
+          "label": "软硬件协同开发经验",
+          "value": 30.7
+        },
+        {
+          "label": "名校学历",
+          "value": 28.8
+        }
+      ]
+    },
+    "role_growth": {
+      "source": "S3",
+      "unit": "% 职位数同比",
+      "items": [
+        {
+          "label": "AI 智能体开发",
+          "value": 244.0
+        },
+        {
+          "label": "AI 产品经理",
+          "value": 87.7
+        },
+        {
+          "label": "数据标注 / AI 训练师",
+          "value": 30.3
+        },
+        {
+          "label": "人工智能工程师",
+          "value": 19.3
+        }
+      ]
+    },
+    "industry_ai_hiring": {
+      "source": "S3",
+      "unit": "% 同比 / 元月薪",
+      "note": "跨行业 AI 工程师需求：增速与平均招聘月薪",
+      "items": [
+        {
+          "label": "新能源",
+          "growth": 38.2,
+          "salary": 22594
+        },
+        {
+          "label": "航空航天/船舶",
+          "growth": 23.5,
+          "salary": 22787
+        }
+      ]
+    },
+    "embodied_ai": {
+      "source": [
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "items": [
+        {
+          "label": "具身智能招聘指数（2025 同期）",
+          "value": 36,
+          "unit": "指数"
+        },
+        {
+          "label": "具身智能招聘指数（2026 年 1-4 月）",
+          "value": 579,
+          "unit": "指数"
+        },
+        {
+          "label": "人形机器人新发职位同比",
+          "value": 215.8,
+          "unit": "%"
+        },
+        {
+          "label": "机器人领域新发职位同比",
+          "value": 75.26,
+          "unit": "%"
+        },
+        {
+          "label": "人形机器人平均年薪",
+          "value": 40.61,
+          "unit": "万元"
+        },
+        {
+          "label": "具身智能人才缺口",
+          "value": 100,
+          "unit": "万人"
+        }
+      ]
+    },
+    "jd_keywords": {
+      "source": "S7",
+      "note": "6 份公开 JD 中出现的技能关键词及出现份数",
+      "items": [
+        {
+          "label": "Python",
+          "count": 6
+        },
+        {
+          "label": "RAG / 检索增强",
+          "count": 5
+        },
+        {
+          "label": "Agent / 智能体",
+          "count": 5
+        },
+        {
+          "label": "Docker / K8s",
+          "count": 4
+        },
+        {
+          "label": "FastAPI / Flask",
+          "count": 4
+        },
+        {
+          "label": "SQL / 向量库",
+          "count": 4
+        },
+        {
+          "label": "MCP / 工具协议",
+          "count": 2
+        },
+        {
+          "label": "评测集 / badcase 回流",
+          "count": 2
+        },
+        {
+          "label": "React / TypeScript",
+          "count": 2
+        }
+      ]
+    },
+    "industry_ai_salary": {
+      "source": "S3",
+      "unit": "元/月",
+      "note": "全行业社招口径，非校招；仅用于说明跨界方向的相对水平",
+      "items": [
+        {
+          "label": "航空航天/船舶",
+          "value": 22787
+        },
+        {
+          "label": "新能源",
+          "value": 22594
+        }
+      ]
+    }
+  }
+}

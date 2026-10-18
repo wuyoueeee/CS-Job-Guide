@@ -137,7 +137,7 @@ HashMap 为什么快？
 - [Redis：缓存设计、持久化与并发边界](./Redis高频面试题.md)
 - [Spring 与 Spring Boot](./Spring与SpringBoot高频面试题.md)
 - [Linux 与 Git](./Linux与Git校招实用指南.md)
-- [MySQL 基础高频面试题](./MySQL基础高频面试题%20.md)
+- [MySQL 基础高频面试题](./MySQL基础高频面试题.md)
 - [MySQL 进阶高频面试题](./MySQL进阶高频面试题.md)
 - [MySQL 高级高频面试题](./MySQL高级高频面试题.md)
 - [操作系统高频面试题](./操作系统高频面试题.md)

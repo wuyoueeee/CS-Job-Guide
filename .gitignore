@@ -1,0 +1,22 @@
+# 编辑器与 IDE
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地工具状态与临时预览
+.workbuddy/
+_chart_preview/
+
+# 生成产物（可用 tools/ 下脚本重新生成）
+wechat-ai-rd/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
